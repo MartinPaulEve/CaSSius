@@ -22,7 +22,7 @@ CaSSius takes standard HTML content in a pre-specified form and flows it between
 #Document Structure
 The following rules should be strictly adhered to in order to produce correct documents.
 
-1. Every HTML file should contain a CaSSius metadata block. A CaSSius metadata block should be wrapped inside a script tag with type set to "text/cassius" and an id attribute of "cassius-metadata. A CaSSius metadata block may contain the following elements:
+Every HTML file should contain a CaSSius metadata block. A CaSSius metadata block should be wrapped inside a script tag with type set to "text/cassius" and an id attribute of "cassius-metadata. A CaSSius metadata block may contain the following elements:
 
         <script type="text/cassius" id="cassius-metadata">
             <div id="cassius-metadata-block">
@@ -37,7 +37,7 @@ The following rules should be strictly adhered to in order to produce correct do
 
 If the "cassius-title" metadata div is not present, CaSSius will use the HTML document's "title" element in the "head" of the document.
 
-2. The basic structure of a CaSSius document is as follows (also available in template.html):
+The basic structure of a CaSSius document is as follows (also available in template.html):
 
     <body>
         <div id="cassius-content">
