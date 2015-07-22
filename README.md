@@ -8,11 +8,11 @@ CaSSius takes standard HTML content in a pre-specified form and flows it between
 1. Move or copy the "cassius" directory from this repository into the root of your website.
 2. Insert the following code into the head tag of your HTML document:
 
-    <link rel="stylesheet" href="cassius/cassius.css">
-    <link rel="stylesheet" href="cassius/cassius-content.css">
-    <script type="text/javascript" src="cassius/jquery.js"></script>
-    <script type="text/javascript" src="cassius/cassius.js"></script>
-    <script src="cassius/regions/css-regions-polyfill.min.js"></script>
+        <link rel="stylesheet" href="cassius/cassius.css">
+        <link rel="stylesheet" href="cassius/cassius-content.css">
+        <script type="text/javascript" src="cassius/jquery.js"></script>
+        <script type="text/javascript" src="cassius/cassius.js"></script>
+        <script src="cassius/regions/css-regions-polyfill.min.js"></script>
 
 3. Optionally, insert the javascript code for [Adobe typekit](https://typekit.com) (you will need to sign up for an account).
 4. Format your document according to the "document structure" guide below.
