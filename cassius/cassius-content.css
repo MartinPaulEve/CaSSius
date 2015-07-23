@@ -135,6 +135,10 @@ li.ref-content {
   padding-left:0.2in;
 }
 
+div.footnote p {
+	text-indent: 0in;
+}
+
 /* Flow control */
 
 div.main, div.notes {
