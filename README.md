@@ -116,3 +116,4 @@ CaSSius makes use of several other open-source/free-software projects, including
 * [jQuery](https://jquery.org). Under [the MIT license](https://jquery.org/license/).
 * The CaSSius logo is a derivative of a work by [Lil Squid from the Noun Project](https://thenounproject.com/search/?q=type&i=150037), licensed under the Creative Commons Attribution License.
 * Parts of the cassius-import library contain materials from the National Library of Medicine, specifically [adaptations of their XSLT suite and entity resolution files, which are public domain](http://dtd.nlm.nih.gov/tools/tools.html).
+* The cassius-import library links to the Saxon XSLT and XQuery Processor from Saxonica Limited <http://www.saxonica.com/> which is dual-licensed under the GNU GPL and the Mozilla Public License <http://www.mozilla.org/MPL/>. This dual-licensing applies ONLY to the file saxon9.jar.
