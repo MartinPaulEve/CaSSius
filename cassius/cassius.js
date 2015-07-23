@@ -23,7 +23,7 @@ $( document ).ready(function() {
 		title = document.title;
 	}
 
-	$(".articletitle").text(title);
+	$(".articletitle").html(title);
 	$(".authors").text(authors);
 	$(".affiliations").text(affils);
 
