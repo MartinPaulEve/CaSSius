@@ -1,3 +1,4 @@
+![CaSSiuS](cassius/images/logo.png?raw=true)
 CaSSius is a tool to create beautiful paginated PDF documents from HTML content using CSS regions. It is intended to be part of [XML-first/XML-in workflows](https://www.martineve.com/2015/07/20/building-a-real-xml-first-workflow-for-scholarly-typesetting/) for scholarly communications but may have alternative uses.
 
 CaSSius: heavyweight typesetting with lightweight technology.
