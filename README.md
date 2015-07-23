@@ -37,7 +37,7 @@ Every HTML file should contain a CaSSius metadata block. A CaSSius metadata bloc
 
 If the "cassius-title" metadata div is not present, CaSSius will use the HTML document's "title" element in the "head" of the document.
 
-The basic structure of a CaSSius document is as follows (also available in template.html):
+The basic structure of a CaSSius document is as follows (also available in [template.html](template.html)):
 
     <body>
         <div id="cassius-content">
@@ -94,12 +94,25 @@ The basic structure of a CaSSius document is as follows (also available in templ
         </script>
     </body>
 
+#Import from JATS/NLM
+An early-stage version of an import function from JATS is implemented in [cassius-import/bin/cassius-import.py](cassius-import/bin/cassius-import.py). This script requires python and java.
+
+    Usage:
+        cassius-import.py <in-file> <out-file> [options]
+        cassius-import.py (-h | --help)
+        cassius-import.py --version
+
+A sample XML file to show this working (and the scope of implementation to date) [can be found in the cassius-import directory](cassius-import/sample.xml).
+
 #Performance and Settings
 If you are consistently typesetting documents that are over fifty pages long, you may see a performance increase if you change the value of initialPages to a higher setting in cassius.js. Setting this to a higher value will yield better performance on larger documents, but worse performance on smaller documents.
 
 #Components and Licensing
+CaSSius is copyright Martin Paul Eve 2015. It is released under the terms specified in [LICENSE](LICENSE).
+
 CaSSius makes use of several other open-source/free-software projects, including:
 
 * [css-regions-polyfill](https://github.com/FremyCompany/css-regions-polyfill). Copyright (c) 2014 François REMY with [a BSD-style license](https://github.com/FremyCompany/css-regions-polyfill/blob/master/LICENSE.md).
 * [jQuery](https://jquery.org). Under [the MIT license](https://jquery.org/license/).
 * The CaSSius logo is a derivative of a work by [Lil Squid from the Noun Project](https://thenounproject.com/search/?q=type&i=150037), licensed under the Creative Commons Attribution License.
+* Parts of the cassius-import library contain materials from the National Library of Medicine, specifically [adaptations of their XSLT suite and entity resolution files, which are public domain](http://dtd.nlm.nih.gov/tools/tools.html).
