@@ -106,7 +106,7 @@ An early-stage version of an import function from JATS is implemented in [cassiu
 A sample XML file to show this working (and the scope of implementation to date) [can be found in the cassius-import directory](cassius-import/sample.xml).
 
 #Performance and Settings
-If you are consistently typesetting documents that are over fifty pages long, you may see a performance increase if you change the value of initialPages to a higher setting in cassius.js. Setting this to a higher value will yield better performance on larger documents, but worse performance on smaller documents.
+If you are consistently typesetting documents that are over fifty pages long, you may see a performance increase if you change the value of initialPages to a higher setting in [cassius.js](cassius/cassius.js). Setting this to a higher value will yield better performance on larger documents, but worse performance on smaller documents.
 
 #Components and Licensing
 CaSSius is copyright Martin Paul Eve 2015. It is released under the terms specified in [LICENSE](LICENSE).
