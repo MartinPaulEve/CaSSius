@@ -29,11 +29,19 @@ $( document ).ready(function() {
 
 	template = '<div class="page"><div class="header"><img src="cassius/images/logo.png"></div><div class="content"></div><div class="footer" id="footer"><i>' + publication + '</i> | DOI: <a href="http://dx.doi.org/' + doi + '">' + doi + '</a> | ' + pdate + '<div class="pagination"><span class="page-number-current"></span> / <span class="page-number-total"></span></div></div></div>'
 
-	// hook the regionfragmentchange event and, when fired, adjust the number of pages and paginate etc.
-	document.getNamedFlows()[0].addEventListener('regionfragmentchange', modifyFlow);
+    hook();
 
-	addPages(initialPages, 0, $('#article'));
+    addPages(initialPages, 0, $('#article'));
 });
+
+function hook(){
+    if(document.getNamedFlows()[0]){
+        // hook the regionfragmentchange event and, when fired, adjust the number of pages and paginate etc.
+        document.getNamedFlows()[0].addEventListener('regionfragmentchange', modifyFlow);
+    } else {
+        setTimeout(hook, 1000);
+    }
+}
 	
 function modifyFlow(e) {
 	var article  = $('#article'); 
