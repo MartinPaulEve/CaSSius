@@ -151,6 +151,11 @@
 </xsl:template>
 
 <xsl:template match="/article/back//mixed-citation">
+  <xsl:element name="a">
+          <xsl:attribute name="id">
+            <xsl:value-of select="../@id"/>
+          </xsl:attribute>
+        </xsl:element>
   <xsl:element name="li">
     <xsl:attribute name="class">ref-content</xsl:attribute>
     <xsl:apply-templates />
@@ -174,6 +179,22 @@
     <xsl:element name="sup">
       <xsl:number level="any" count="xref[@ref-type='fn']"/>
     </xsl:element>
+  </xsl:element>
+</xsl:template>
+
+<!-- in-text bibliography refenences -->
+
+<xsl:template match="xref[@ref-type='bibr']">
+  <xsl:element name="a">
+    <xsl:attribute name="class">bibliography_link</xsl:attribute>
+    <xsl:attribute name="href">
+      <xsl:text>#</xsl:text>
+      <xsl:value-of select="@rid"/>
+      <xsl:text>--fragment</xsl:text>
+    </xsl:attribute>
+    
+    <xsl:apply-templates/>
+    
   </xsl:element>
 </xsl:template>
 
