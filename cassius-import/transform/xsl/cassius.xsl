@@ -182,6 +182,7 @@
   </xsl:element>
 </xsl:template>
 
+
 <!-- in-text bibliography refenences -->
 
 <xsl:template match="xref[@ref-type='bibr']">
@@ -404,6 +405,15 @@
     <span style="text-decoration: underline">
       <xsl:apply-templates/>
     </span>
+  </xsl:template>
+
+  <xsl:template match="uri">
+    <xsl:element name="a">
+      <xsl:attribute name="href">
+        <xsl:value-of select="."/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
   </xsl:template>
 
 </xsl:stylesheet>

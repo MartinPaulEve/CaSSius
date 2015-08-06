@@ -27,7 +27,7 @@ $( document ).ready(function() {
 	$(".authors").text(authors);
 	$(".affiliations").text(affils);
 
-	template = '<div class="page"><div class="header"><img src="cassius/images/logo.png"></div><div class="content"></div><div class="footer" id="footer"><i>' + publication + '</i> | DOI: <a href="http://dx.doi.org/' + doi + '">' + doi + '</a> | ' + pdate + '<div class="pagination"><span class="page-number-current"></span> / <span class="page-number-total"></span></div></div></div>'
+	template = '<div class="page"><div class="header"><img src="cassius/images/logo.png"></div><div class="content"></div><div class="footer" id="footer"><i>' + publication + '</i> | DOI: <a href="http://dx.doi.org/' + doi + '">http://dx.doi.org/' + doi + '</a> | ' + pdate + '<div class="pagination"><span class="page-number-current"></span> / <span class="page-number-total"></span></div></div></div>'
 
     hook();
 
