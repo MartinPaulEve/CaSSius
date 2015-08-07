@@ -31,8 +31,11 @@ Every HTML file should contain a CaSSius metadata block. A CaSSius metadata bloc
                 <div id="cassius-publication">CaSSius</div>
                 <div id="cassius-authors">Martin Paul Eve</div>
                 <div id="cassius-affiliations">Department of English and Humanities, School of Arts, Birkbeck, University of London, United Kingdom</div>
+                <div id="cassius-emails">martin@martineve.com</div>
                 <div id="cassius-doi">10.16995/olh.001</div>
                 <div id="cassius-date">September 2015</div>
+                <div id="cassius-volume">1</div>
+                <div id="cassius-issue">2</div>
             </div>
         </script>
 
@@ -45,7 +48,7 @@ The basic structure of a CaSSius document is as follows (also available in [temp
           <h1 class="articletitle"></h1>
           <div class="authors"></div>
           <div class="affiliations"></div>
-
+          <div class="emails"></div>
 
           <div class="abstract">
               <h2>Abstract</h2>
@@ -89,8 +92,11 @@ The basic structure of a CaSSius document is as follows (also available in [temp
                 <div id="cassius-publication">CaSSius</div>
                 <div id="cassius-authors">Martin Paul Eve</div>
                 <div id="cassius-affiliations">Department of English and Humanities, School of Arts, Birkbeck, University of London, United Kingdom</div>
+                <div id="cassius-emails">martin@martineve.com</div>
                 <div id="cassius-doi">10.16995/olh.001</div>
                 <div id="cassius-date">September 2015</div>
+                <div id="cassius-volume">1</div>
+                <div id="cassius-issue">2</div>
             </div>
         </script>
     </body>

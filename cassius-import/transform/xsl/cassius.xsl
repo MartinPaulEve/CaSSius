@@ -33,6 +33,7 @@
       <h1 class="articletitle"></h1>
       <div class="authors"></div>
       <div class="affiliations"></div>
+      <div class="emails"></div>
 
 
       <div class="abstract">
@@ -66,10 +67,13 @@
         <div id="cassius-metadata-block">
             <div id="cassius-title"><xsl:apply-templates select="/article/front/article-meta/title-group/article-title"/></div>
             <div id="cassius-publication"><xsl:apply-templates select="/article/front/journal-meta/journal-id"/></div>
-            <div id="cassius-authors"><xsl:apply-templates select="/article/front/article-meta/contrib-group" mode="metadata"/></div>
+            <div id="cassius-authors"><xsl:apply-templates select="/article/front/article-meta/contrib-group/contrib/name" mode="metadata"/></div>
+            <div id="cassius-emails"><xsl:apply-templates select="/article/front/article-meta/contrib-group/contrib/email" mode="metadata"/></div>
             <div id="cassius-affiliations"><xsl:apply-templates select="/article/front/article-meta/aff" mode="metadata"/></div>
             <div id="cassius-doi"><xsl:apply-templates select="/article/front/article-meta/article-id[@pub-id-type='doi']"/></div>
             <div id="cassius-date"><xsl:apply-templates select="/article/front/article-meta/pub-date" mode="metadata"/></div>
+						<div id="cassius-volume"><xsl:apply-templates select="/article/front/article-meta/volume" mode="metadata"/></div>
+						<div id="cassius-issue"><xsl:apply-templates select="/article/front/article-meta/issue" mode="metadata"/></div>
         </div>
     </script>
   </body>
@@ -266,6 +270,13 @@
   <xsl:template match="suffix" mode="inline-name">
     <xsl:apply-templates/>
   </xsl:template>
+
+<xsl:template match="/article/front/article-meta/contrib-group/contrib/email" mode="metadata">
+<xsl:element name="a">
+<xsl:attribute name="href"><xsl:text>mailto:</xsl:text><xsl:value-of select="."/></xsl:attribute>
+<xsl:value-of select="."/>
+</xsl:element>
+</xsl:template>
 
   
   <!-- string-name elements are written as is -->

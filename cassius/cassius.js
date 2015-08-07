@@ -15,9 +15,12 @@ $( document ).ready(function() {
 	var title = metadata.find('#cassius-title').html();
 	var authors = metadata.find('#cassius-authors').html();
 	var affils = metadata.find('#cassius-affiliations').html();
+	var emails = metadata.find('#cassius-emails').html();
 	var publication = metadata.find('#cassius-publication').text();
 	var doi = metadata.find('#cassius-doi').text();
 	var pdate = metadata.find('#cassius-date').text();
+	var vol = metadata.find('#cassius-volume').text();
+	var issue = metadata.find('#cassius-issue').text();
 
 	if (title == '') {
 		title = document.title;
@@ -26,8 +29,9 @@ $( document ).ready(function() {
 	$(".articletitle").html(title);
 	$(".authors").text(authors);
 	$(".affiliations").text(affils);
+	$(".emails").html(emails);
 
-	template = '<div class="page"><div class="header"><img src="cassius/images/logo.png"></div><div class="content"></div><div class="footer" id="footer"><i>' + publication + '</i> | DOI: <a href="http://dx.doi.org/' + doi + '">http://dx.doi.org/' + doi + '</a> | ' + pdate + '<div class="pagination"><span class="page-number-current"></span> / <span class="page-number-total"></span></div></div></div>'
+	template = '<div class="page"><div class="header"><img src="cassius/images/logo.png"></div><div class="content"></div><div class="footer" id="footer"><i>' + publication + '</i> ' + vol + '(' + issue + ') | DOI: <a href="http://dx.doi.org/' + doi + '">http://dx.doi.org/' + doi + '</a> | ' + pdate + '<div class="pagination"><span class="page-number-current"></span> / <span class="page-number-total"></span></div></div></div>'
 
     hook();
 
