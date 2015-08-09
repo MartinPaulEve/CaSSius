@@ -121,6 +121,7 @@ CaSSius makes use of several other open-source/free-software projects, including
 
 * [css-regions-polyfill](https://github.com/FremyCompany/css-regions-polyfill). Copyright (c) 2014 François REMY with [a BSD-style license](https://github.com/FremyCompany/css-regions-polyfill/blob/master/LICENSE.md).
 * [jQuery](https://jquery.org). Under [the MIT license](https://jquery.org/license/).
+* [docopt](https://github.com/docopt). Copyright (c) 2012 Vladimir Keleshev, <vladimir@keleshev.com> with an [MIT license](https://github.com/docopt/docopt/blob/master/LICENSE-MIT).
 * The CaSSius logo is a derivative of a work by [Lil Squid from the Noun Project](https://thenounproject.com/search/?q=type&i=150037), licensed under the Creative Commons Attribution License.
 * Parts of the cassius-import library contain materials from the National Library of Medicine, specifically [adaptations of their XSLT suite and entity resolution files, which are public domain](http://dtd.nlm.nih.gov/tools/tools.html).
 * The cassius-import library links to the Saxon XSLT and XQuery Processor from Saxonica Limited <http://www.saxonica.com/> which is dual-licensed under the GNU GPL and the Mozilla Public License <http://www.mozilla.org/MPL/>. This dual-licensing applies ONLY to the file saxon9.jar.
