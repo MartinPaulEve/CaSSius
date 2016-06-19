@@ -13,7 +13,7 @@ CaSSius takes standard HTML content in a pre-specified form and flows it between
         <link rel="stylesheet" href="cassius/cassius-content.css">
         <script type="text/javascript" src="cassius/jquery.js"></script>
         <script type="text/javascript" src="cassius/cassius.js"></script>
-        <script src="cassius/regions/css-regions-polyfill.min.js"></script>
+        <script src="cassius/regions/css-regions-polyfill.js"></script>
 
 3. Optionally, insert the javascript code for [Adobe typekit](https://typekit.com) (you will need to sign up for an account).
 4. Format your document according to the "document structure" guide below.
