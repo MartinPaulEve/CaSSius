@@ -25,7 +25,7 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script type="text/javascript" src="cassius/jquery.js"></script>
   <script type="text/javascript" src="cassius/cassius.js"></script>
-  <script src="cassius/regions/css-regions-polyfill.min.js"></script>
+  <script src="cassius/regions/css-regions-polyfill.js"></script>
 </head>
 
   <body>

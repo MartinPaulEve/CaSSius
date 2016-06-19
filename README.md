@@ -111,6 +111,15 @@ An early-stage version of an import function from JATS is implemented in [cassiu
 
 A sample XML file to show this working (and the scope of implementation to date) [can be found in the cassius-import directory](cassius-import/sample.xml).
 
+#Headless Printing
+CaSSius is designed to allow headless printing of documents using wkhtmltopdf, hence the modified version of the CSS Regions Polyfill that we here distribute. Please note that this will not work with the default polyfill and you must use our altered version, although we will attempt to contribute the fix upstream.
+
+The settings that you need to pass to wkhtmltopdf are, for example, as follows:
+
+    ./wkhtmltopdf --javascript-delay 15000 --no-stop-slow-scripts -L 0 -R 0 -B 0 -T 0 http://localhost:8000/ ~/result.pdf
+
+This tells wkhtmltopdf to allow 15 seconds for the polyfill to run, not to stop a script running for a long time and sets all margins to zero. It prints the contents of localhost:8000 to result.pdf in a user's home folder.
+
 #Performance and Settings
 If you are consistently typesetting documents that are over fifty pages long, you may see a performance increase if you change the value of initialPages to a higher setting in [cassius.js](cassius/cassius.js). Setting this to a higher value will yield better performance on larger documents, but worse performance on smaller documents.
 
