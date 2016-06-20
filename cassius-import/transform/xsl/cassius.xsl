@@ -43,7 +43,7 @@
       </div>
 
       <div class="main">
-          <xsl:apply-templates select="/article/body/sec" />
+          <xsl:apply-templates select="/article/body/*" />
 
           <div class="notes">
               <h1>Notes</h1>
@@ -72,8 +72,8 @@
             <div id="cassius-affiliations"><xsl:apply-templates select="/article/front/article-meta/aff" mode="metadata"/></div>
             <div id="cassius-doi"><xsl:apply-templates select="/article/front/article-meta/article-id[@pub-id-type='doi']"/></div>
             <div id="cassius-date"><xsl:apply-templates select="/article/front/article-meta/pub-date" mode="metadata"/></div>
-						<div id="cassius-volume"><xsl:apply-templates select="/article/front/article-meta/volume" mode="metadata"/></div>
-						<div id="cassius-issue"><xsl:apply-templates select="/article/front/article-meta/issue" mode="metadata"/></div>
+            <div id="cassius-volume"><xsl:apply-templates select="/article/front/article-meta/volume" mode="metadata"/></div>
+            <div id="cassius-issue"><xsl:apply-templates select="/article/front/article-meta/issue" mode="metadata"/></div>
         </div>
     </script>
   </body>
@@ -103,6 +103,17 @@
   </xsl:element>
 </xsl:template>
 
+<xsl:template match="/article/body/p">
+  <xsl:element name="p">
+    <xsl:if test="./@content-type">
+      <xsl:attribute name="class">
+        <xsl:value-of select="./@content-type"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:apply-templates/>
+  </xsl:element>
+</xsl:template>
+
 <xsl:template match="/article/body/sec/p">
   <xsl:element name="p">
     <xsl:if test="./@content-type">
@@ -121,7 +132,20 @@
   </xsl:element>
 </xsl:template>
 
+<xsl:template match="/article/body/disp-quote">
+  <xsl:element name="div">
+    <xsl:attribute name="class">blockquote</xsl:attribute>
+    <xsl:apply-templates/>
+  </xsl:element>
+</xsl:template>
+
 <xsl:template match="/article/body/sec/disp-quote/p">
+  <xsl:element name="p">
+    <xsl:apply-templates/>
+  </xsl:element>
+</xsl:template>
+
+<xsl:template match="/article/body/disp-quote/p">
   <xsl:element name="p">
     <xsl:apply-templates/>
   </xsl:element>
