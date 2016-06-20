@@ -58,7 +58,8 @@
 .header img {
   position: relative;
   top: -0.1in;
-  width: 20%;
+  max-width: 20%;
+  max-height: 0.36in;
 }
 
 .footer {
