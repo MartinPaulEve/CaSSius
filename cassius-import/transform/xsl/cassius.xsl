@@ -66,7 +66,7 @@
     <script type="text/cassius" id="cassius-metadata">
         <div id="cassius-metadata-block">
             <div id="cassius-title"><xsl:apply-templates select="/article/front/article-meta/title-group/article-title"/></div>
-            <div id="cassius-publication"><xsl:apply-templates select="/article/front/journal-meta/journal-id"/></div>
+            <div id="cassius-publication"><xsl:apply-templates select="/article/front/journal-meta/journal-title"/></div>
             <div id="cassius-authors"><xsl:apply-templates select="/article/front/article-meta/contrib-group"/></div>
             <div id="cassius-emails"><xsl:apply-templates select="/article/front/article-meta/contrib-group/contrib/email"/></div>
             <div id="cassius-affiliations"><xsl:call-template name="write-affilitations"/></div>
