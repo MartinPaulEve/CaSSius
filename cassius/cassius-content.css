@@ -52,7 +52,7 @@ div.main p.continuedparagraph {
 	text-indent: 0in;
 }
 
-div.main h1 ~ p:first-of-type {
+div h1 ~ p:first-of-type {
 	text-indent: 0in;
 }
 
@@ -143,6 +143,24 @@ li.ref-content {
 
 div.footnote p {
 	text-indent: 0in;
+}
+
+
+/* Images */
+img {
+  max-width: 95%;
+}
+
+figure {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+figcaption {
+  text-align: center;
+  padding-top: 20px;
+  display: block;
 }
 
 /* Flow control */

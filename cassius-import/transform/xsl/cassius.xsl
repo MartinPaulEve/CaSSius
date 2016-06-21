@@ -90,14 +90,14 @@
 
 <!-- Main body -->
 
-<xsl:template match="/article/body/sec">
+<xsl:template match="sec">
   <xsl:element name="div">
     <xsl:attribute name="class">section</xsl:attribute>
     <xsl:apply-templates/>
   </xsl:element>
 </xsl:template>
 
-<xsl:template match="/article/body/sec/title">
+<xsl:template match="title">
   <xsl:element name="h1">
     <xsl:apply-templates/>
   </xsl:element>
@@ -114,7 +114,7 @@
   </xsl:element>
 </xsl:template>
 
-<xsl:template match="/article/body/sec/p">
+<xsl:template match="sec/p">
   <xsl:element name="p">
     <xsl:if test="./@content-type">
       <xsl:attribute name="class">
@@ -125,27 +125,15 @@
   </xsl:element>
 </xsl:template>
 
-<xsl:template match="/article/body/sec/disp-quote">
+
+<xsl:template match="disp-quote">
   <xsl:element name="div">
     <xsl:attribute name="class">blockquote</xsl:attribute>
     <xsl:apply-templates/>
   </xsl:element>
 </xsl:template>
 
-<xsl:template match="/article/body/disp-quote">
-  <xsl:element name="div">
-    <xsl:attribute name="class">blockquote</xsl:attribute>
-    <xsl:apply-templates/>
-  </xsl:element>
-</xsl:template>
-
-<xsl:template match="/article/body/sec/disp-quote/p">
-  <xsl:element name="p">
-    <xsl:apply-templates/>
-  </xsl:element>
-</xsl:template>
-
-<xsl:template match="/article/body/disp-quote/p">
+<xsl:template match="disp-quote/p">
   <xsl:element name="p">
     <xsl:apply-templates/>
   </xsl:element>
@@ -309,6 +297,9 @@
 <xsl:template match="fig">
   <xsl:element name="figure">
     <xsl:apply-templates/>
+    <xsl:element name="figcaption">
+      <xsl:value-of select='./label'/><xsl:text>: </xsl:text><xsl:value-of select='./caption/p'/>
+    </xsl:element>
   </xsl:element>
 </xsl:template>
 
@@ -320,9 +311,6 @@
 </xsl:template>
 
 <xsl:template match="caption">
-  <xsl:element name="figcaption">
-    <xsl:apply-templates/>
-  </xsl:element>
 </xsl:template>
 
 <xsl:template match="fig/label">
