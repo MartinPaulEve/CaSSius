@@ -139,6 +139,33 @@
   </xsl:element>
 </xsl:template>
 
+<!-- Tables -->
+
+<xsl:template match="table-wrap">
+  <xsl:element name="table">
+    <xsl:element name="caption"><xsl:value-of select='./label'/><xsl:text>: </xsl:text><xsl:value-of select='./caption/p'/></xsl:element>
+      <xsl:apply-templates/>
+  </xsl:element>
+</xsl:template>
+
+<xsl:template match="table-wrap/label">
+</xsl:template>
+
+<xsl:template match="table">
+  <xsl:apply-templates/>
+</xsl:template>
+
+<xsl:template match="tr">
+  <xsl:element name="tr"><xsl:apply-templates/></xsl:element>
+</xsl:template>
+
+<xsl:template match="th">
+  <xsl:element name="th"><xsl:apply-templates/></xsl:element>
+</xsl:template>
+
+<xsl:template match="td">
+  <xsl:element name="td"><xsl:apply-templates/></xsl:element>
+</xsl:template>
 
 <!-- back matter -->
 <xsl:template match="/article/back/fn-group/fn">
