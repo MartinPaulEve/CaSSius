@@ -67,13 +67,13 @@
         <div id="cassius-metadata-block">
             <div id="cassius-title"><xsl:apply-templates select="/article/front/article-meta/title-group/article-title"/></div>
             <div id="cassius-publication"><xsl:apply-templates select="/article/front/journal-meta/journal-id"/></div>
-            <div id="cassius-authors"><xsl:apply-templates select="/article/front/article-meta/contrib-group/contrib/name" mode="metadata"/></div>
-            <div id="cassius-emails"><xsl:apply-templates select="/article/front/article-meta/contrib-group/contrib/email" mode="metadata"/></div>
-            <div id="cassius-affiliations"><xsl:apply-templates select="/article/front/article-meta/aff" mode="metadata"/></div>
+            <div id="cassius-authors"><xsl:apply-templates select="/article/front/article-meta/contrib-group"/></div>
+            <div id="cassius-emails"><xsl:apply-templates select="/article/front/article-meta/contrib-group/contrib/email"/></div>
+            <div id="cassius-affiliations"><xsl:apply-templates select="/article/front/article-meta/aff"/></div>
             <div id="cassius-doi"><xsl:apply-templates select="/article/front/article-meta/article-id[@pub-id-type='doi']"/></div>
-            <div id="cassius-date"><xsl:apply-templates select="/article/front/article-meta/pub-date" mode="metadata"/></div>
-            <div id="cassius-volume"><xsl:apply-templates select="/article/front/article-meta/volume" mode="metadata"/></div>
-            <div id="cassius-issue"><xsl:apply-templates select="/article/front/article-meta/issue" mode="metadata"/></div>
+            <div id="cassius-date"><xsl:apply-templates select="/article/front/article-meta/pub-date"/></div>
+            <div id="cassius-volume"><xsl:apply-templates select="/article/front/article-meta/volume"/></div>
+            <div id="cassius-issue"><xsl:apply-templates select="/article/front/article-meta/issue"/></div>
         </div>
     </script>
   </body>
@@ -218,7 +218,7 @@
 <!-- Author names -->
   <xsl:template name="author-string">
     <xsl:variable name="all-contribs"
-      select="/article/front/article-meta/contrib-group/contrib/name/surname |
+      select="/article/front/article-meta/contrib-group/contrib[@contrib-type='author']/name |
               /article/front/article-meta/contrib-group/contrib/collab"/>
    <xsl:for-each select="$all-contribs">
       <xsl:if test="count($all-contribs) &gt; 1">
@@ -228,16 +228,16 @@
         </xsl:if>
         <xsl:if test="position() = count($all-contribs)">and </xsl:if>
       </xsl:if>
-      <xsl:value-of select="."/>
+      <xsl:call-template name="write-name"/>
     </xsl:for-each>
   </xsl:template>
 
-  <xsl:template match="contrib/name" mode="metadata">
+  <xsl:template match="/article/front/article-meta/contrib-group">
         <!-- (surname, given-names?, prefix?, suffix?) -->
-        <xsl:call-template name="write-name"/>
+        <xsl:call-template name="author-string"/>
   </xsl:template>
 
-  <xsl:template name="write-name" match="name">
+  <xsl:template name="write-name">
     <xsl:apply-templates select="prefix" mode="inline-name"/>
     <xsl:apply-templates select="surname[../@name-style='eastern']"
       mode="inline-name"/>
@@ -283,7 +283,7 @@
     <xsl:apply-templates/>
   </xsl:template>
 
-<xsl:template match="/article/front/article-meta/contrib-group/contrib/email" mode="metadata">
+<xsl:template match="/article/front/article-meta/contrib-group/contrib/email">
 <xsl:element name="a">
 <xsl:attribute name="href"><xsl:text>mailto:</xsl:text><xsl:value-of select="."/></xsl:attribute>
 <xsl:value-of select="."/>
@@ -366,7 +366,7 @@
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="pub-date" mode="metadata">
+  <xsl:template match="pub-date">
     <xsl:call-template name="format-date"/>
   </xsl:template>
 
