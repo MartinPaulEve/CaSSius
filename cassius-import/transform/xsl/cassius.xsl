@@ -69,7 +69,7 @@
             <div id="cassius-publication"><xsl:apply-templates select="/article/front/journal-meta/journal-id"/></div>
             <div id="cassius-authors"><xsl:apply-templates select="/article/front/article-meta/contrib-group"/></div>
             <div id="cassius-emails"><xsl:apply-templates select="/article/front/article-meta/contrib-group/contrib/email"/></div>
-            <div id="cassius-affiliations"><xsl:apply-templates select="/article/front/article-meta/aff"/></div>
+            <div id="cassius-affiliations"><xsl:call-template name="write-affilitations"/></div>
             <div id="cassius-doi"><xsl:apply-templates select="/article/front/article-meta/article-id[@pub-id-type='doi']"/></div>
             <div id="cassius-date"><xsl:apply-templates select="/article/front/article-meta/pub-date"/></div>
             <div id="cassius-volume"><xsl:apply-templates select="/article/front/article-meta/volume"/></div>
@@ -228,7 +228,7 @@
         </xsl:if>
         <xsl:if test="position() = count($all-contribs)">and </xsl:if>
       </xsl:if>
-      <xsl:call-template name="write-name"/>
+      <xsl:call-template name="write-name"/><xsl:element name="sup"><xsl:number count="contrib[@contrib-type='author']"/></xsl:element>
     </xsl:for-each>
   </xsl:template>
 
@@ -245,6 +245,20 @@
     <xsl:apply-templates select="surname[not(../@name-style='eastern')]"
       mode="inline-name"/>
     <xsl:apply-templates select="suffix" mode="inline-name"/>
+  </xsl:template>
+
+  <xsl:template name="write-affilitations">
+  <xsl:variable name="all-contribs" select="/article/front/article-meta/aff"></xsl:variable>
+    <xsl:for-each select="$all-contribs">
+      <xsl:if test="count($all-contribs) &gt; 1">
+        <xsl:if test="position() &gt; 1">
+          <xsl:if test="count($all-contribs) &gt; 2">,</xsl:if>
+          <xsl:text> </xsl:text>
+        </xsl:if>
+        <xsl:if test="position() = count($all-contribs)">and </xsl:if>
+      </xsl:if>
+      <xsl:number/><xsl:text>.) </xsl:text><xsl:value-of select="."/>
+    </xsl:for-each>
   </xsl:template>
 
   <xsl:template match="prefix" mode="inline-name">

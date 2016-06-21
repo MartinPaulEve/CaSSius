@@ -27,7 +27,7 @@ $( document ).ready(function() {
 	}
 
 	$(".articletitle").html(title);
-	$(".authors").text(authors);
+	$(".authors").html(authors);
 	$(".affiliations").text(affils);
 	$(".emails").html(emails);
 
