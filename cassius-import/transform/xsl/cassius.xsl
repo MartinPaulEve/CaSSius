@@ -302,6 +302,31 @@
 </xsl:element>
 </xsl:template>
 
+
+
+  <!-- images -->
+
+<xsl:template match="fig">
+  <xsl:element name="figure">
+    <xsl:apply-templates/>
+  </xsl:element>
+</xsl:template>
+
+<xsl:template match="graphic">
+  <xsl:element name="img">
+    <xsl:attribute name="src"><xsl:value-of select="@xlink:href"/></xsl:attribute>
+    <xsl:apply-templates/>
+  </xsl:element>
+</xsl:template>
+
+<xsl:template match="caption">
+  <xsl:element name="figcaption">
+    <xsl:apply-templates/>
+  </xsl:element>
+</xsl:template>
+
+<xsl:template match="fig/label">
+</xsl:template>
   
   <!-- string-name elements are written as is -->
   
