@@ -124,7 +124,7 @@ This tells wkhtmltopdf to allow 15 seconds for the polyfill to run, not to stop 
 If you are consistently typesetting documents that are over fifty pages long, you may see a performance increase if you change the value of initialPages to a higher setting in [cassius.js](cassius/cassius.js). Setting this to a higher value will yield better performance on larger documents, but worse performance on smaller documents.
 
 #Components and Licensing
-CaSSius is copyright Martin Paul Eve 2015. It is released under the terms specified in [LICENSE](LICENSE).
+CaSSius is copyright Martin Paul Eve 2016. It is released under the terms specified in [LICENSE](LICENSE).
 
 CaSSius makes use of several other open-source/free-software projects, including:
 
