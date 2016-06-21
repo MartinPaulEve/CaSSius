@@ -2381,8 +2381,6 @@ module.exports = (function(window, document) { "use strict";
 								
 								// look if the selector matches
 								var isMatching = false;
-								if(selector != "*" && selector.indexOf("*,") < 0) {
-									console.log(selector);
 									try {
 										if(element.matches) isMatching=element.matches(selector)
 										else if(element.matchesSelector) isMatching=element.matchesSelector(selector)
@@ -2395,8 +2393,6 @@ module.exports = (function(window, document) { "use strict";
 									
 									// if yes, add it to the list of matched selectors
 									if(isMatching) { results.push(subrules[sr]); }
-								}
-								
 							}
 							
 						} else if(rule instanceof cssSyntax.AtRule && rule.name=="media") {

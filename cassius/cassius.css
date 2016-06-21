@@ -2,9 +2,6 @@
 /* Main layout control */
 
 * { margin: 0; padding: 0; }
-*, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
-}
 
 @page {
   size: 8.3in 11.7in;
