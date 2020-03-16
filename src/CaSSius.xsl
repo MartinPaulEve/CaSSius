@@ -293,6 +293,11 @@
                   text-align: right;
                 }
 
+                img.logo {
+                    float: right;
+                    width: 25%;
+                }
+
                 /* Flow control */
 
                 div.main, div.notes {
@@ -304,6 +309,8 @@
 
             <body>
                 <section>
+                    <img src="logo.png" class="logo"/>
+                    <br style="clear:both"/>
                     <h1><xsl:apply-templates select="//article-meta/title-group/article-title"/></h1>
                     <p><i><xsl:value-of select="//front/journal-meta//journal-title"/></i>, <xsl:value-of select="//front//volume"/>.<xsl:value-of select="//front//issue"/> (<xsl:value-of select="//pub-date//year"/>), <a><xsl:attribute
                             name="href">https://doi.org/<xsl:value-of select="//article-id[@pub-id-type='doi']"/></xsl:attribute>https://doi.org/<xsl:value-of select="//article-id[@pub-id-type='doi']"/></a></p>

@@ -28,13 +28,14 @@ Various sample XML files can be found in the ["samples" directory](samples/).
 CaSSius creates PDF files by headless printing of documents in Google Chrome.
 
 # Components and Licensing
-CaSSius is copyright Martin Paul Eve 2016. It is released under the terms specified in [LICENSE](LICENSE).
+CaSSius is copyright Martin Paul Eve 2020. It is released under the terms specified in [LICENSE](LICENSE).
 
 CaSSius makes use of several other open-source/free-software projects, including:
 
 * [paged.js](https://gitlab.pagedmedia.org/tools/pagedjs). Copyright (c) 2018 Adam Hyde under the [MIT license](https://gitlab.pagedmedia.org/tools/pagedjs/blob/master/LICENSE.md).
 * [jQuery](https://jquery.org). Under [the MIT license](https://jquery.org/license/).
 * [docopt](https://github.com/docopt). Copyright (c) 2012 Vladimir Keleshev, <vladimir@keleshev.com> with an [MIT license](https://github.com/docopt/docopt/blob/master/LICENSE-MIT).
+* The Open Library of Humanities logo, distributed with samples, is (c) and a trademark of the Open Library of Humanities. No re-use rights of this logo beyond distribution with the samples are bestowed by the above license.  
 * The CaSSius logo is a derivative of a work by [Lil Squid from the Noun Project](https://thenounproject.com/search/?q=type&i=150037), licensed under the Creative Commons Attribution License.
 * Parts of the cassius library contain materials from the National Library of Medicine, specifically [adaptations of their XSLT suite and entity resolution files, which are public domain](http://dtd.nlm.nih.gov/tools/tools.html).
 
