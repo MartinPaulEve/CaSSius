@@ -134,16 +134,17 @@
 
                 /* Images */
                 img {
-                  max-width: 95%;
+                    max-width: 85%;
+                    max-height:85%;
                 }
 
-                figure {
+                .figure {
                   text-align: center;
                   margin-top: 30px;
                   margin-bottom: 30px;
                 }
 
-                figcaption {
+                .fig-caption {
                   text-align: center;
                   padding-top: 20px;
                   display: block;

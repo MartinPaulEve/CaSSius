@@ -2,12 +2,12 @@
 # Imports basic JATS XML documents into CaSSius-compatible HTML document formats
 # Copyright Martin Paul Eve 2020
 
-"""cassius-import: Imports a JATS XML document into a CaSSius-compatible HTML document
+"""cassius: Imports a JATS XML document into a CaSSius-compatible HTML document
 
 Usage:
-    cassius-import.py <in-file> <out-file> [options]
-    cassius-import.py (-h | --help)
-    cassius-import.py --version
+    cassius.py <in-file> <out-file> [options]
+    cassius.py (-h | --help)
+    cassius.py --version
 
 Options:
     -d, --debug                                     Enable debug output.
@@ -15,8 +15,8 @@ Options:
     --version                                       Show version.
 """
 
-
 import os
+import sys
 from os import listdir
 from os.path import isfile, join
 import re
@@ -29,7 +29,7 @@ import subprocess
 from lxml import etree
 
 
-class CassiusImport (Debuggable):
+class CassiusImport(Debuggable):
     def __init__(self):
         # read  command line arguments
         self.args = self.read_command_line()
@@ -61,11 +61,11 @@ class CassiusImport (Debuggable):
         path = file_to_render
 
         if not os.path.isfile(path):
-            self.debug.fatal_error("Bad/no file for XSLT transform")
+            self.debug.fatal_error(self, "Bad/no XML file for XSLT transform")
             return ""
 
         if not os.path.isfile(xsl_path):
-            self.debug.fatal_error('The required XSLT file {0} was not found'.format(xsl_path))
+            self.debug.fatal_error(self, 'The required XSLT file {0} was not found'.format(xsl_path))
             return ""
 
         with open(path, "rb") as xml_file_contents:
@@ -89,8 +89,10 @@ class CassiusImport (Debuggable):
 
         try:
             output = self.render_xml(file_to_render=self.in_file, xsl_path=self.xsl_path)
+        except TypeError as err:
+            self.debug.fatal_error(self, 'Error running transform: {0}'.format(err))
         except:
-            self.debug.fatal_error(self, u'Error running transform.')
+            self.debug.fatal_error(self, 'Error running transform: {0}'.format(sys.exc_info()[0]))
             return
 
         try:
@@ -100,9 +102,10 @@ class CassiusImport (Debuggable):
             self.debug.fatal_error(self, u'Error writing to temporary output file {0}.'.format(self.out_file))
             return
 
-        commands = ['google-chrome --headless --disable-gpu --print-to-pdf={0} --virtual-time-budget=50000000 --run-all-compositor-stages-before-draw --disable-web-security {1} >/dev/null 2>&1'.format(
-                        self.out_file, 'tmp_out.html'),
-                    ]
+        commands = [
+            'google-chrome --headless --disable-gpu --print-to-pdf={0} --virtual-time-budget=50000000 --run-all-compositor-stages-before-draw --disable-web-security {1} >/dev/null 2>&1'.format(
+                self.out_file, 'tmp_out.html'),
+        ]
 
         if not self.debug.debug:
             commands += 'rm tmp_out.html'
@@ -117,6 +120,7 @@ class CassiusImport (Debuggable):
 def main():
     cwf_instance = CassiusImport()
     cwf_instance.run()
+
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<!--<?xml-stylesheet type="text/xsl" href="article.xsl"?>-->
+<article article-type="research-article" dtd-version="1.0" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<front>
+<journal-meta>
+<journal-id journal-id-type="issn">2056-6700</journal-id>
+<journal-title-group>
+<journal-title>Open Library of Humanities</journal-title>
+</journal-title-group>
+<issn pub-type="epub">2056-6700</issn>
+<publisher>
+<publisher-name>Open Library of Humanities</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.16995/olh.82</article-id>
+<article-categories>
+<subj-group>
+<subject>Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>&#8216;You Have to Keep Track of Your Changes&#8217;: The Version Variants and Publishing History of David Mitchell&#8217;s <italic>Cloud Atlas</italic></article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+<surname>Eve</surname>
+<given-names>Martin Paul</given-names>
+</name>
+<email>martin.eve@bbk.ac.uk</email>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+</contrib-group>
+<aff id="aff-1">Birkbeck, University of London, United Kingdom, GB</aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2016-08-10">
+<day>10</day>
+<month>08</month>
+<year>2016</year>
+</pub-date>
+<volume>2</volume>
+<issue>2</issue>
+<elocation-id>e1</elocation-id>
+<supplementary-material id="S1" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dx.doi.org/10.16995/olh.82.s1"/>
+<supplementary-material id="S2" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dx.doi.org/10.16995/olh.82.s2"/>
+<supplementary-material id="S3" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dx.doi.org/10.16995/olh.82.s3"/>
+<permissions>
+<copyright-statement>Copyright: &#x00A9; 2016 The Author(s)</copyright-statement>
+<copyright-year>2016</copyright-year>
+<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International License (CC-BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. See <uri xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</uri>.</license-p>
+</license>
+</permissions>
+<self-uri xlink:href="https://olh.openlibhums.org/articles/10.16995/olh.82/"/>
+<abstract>
+<p>In 2003, David Mitchell&#8217;s editorial contact at the US branch of Random House moved from the publisher, leaving the American edition of <italic>Cloud Atlas</italic> (2004) without an editor for approximately three months. Meanwhile, the UK edition of the manuscript was undergoing a series of editorial changes and rewrites that were never synchronised back into the US edition of the text. When the process was resumed at Random House under the editorial guidance of David Ebershoff, changes from New York were likewise not imported back into the UK edition. In the section entitled &#8216;An Orison of Sonmi ~451&#8217; these desynchronised rewritings are nearly total at the level of linguistic expression between UK and US paperbacks/electronic editions and there are a range of sub-episodes that only feature in one or other of the published editions. Within the constraints of copyright on contemporary fiction, this article sets out this textual variance and visually plots the re-ordering and re-writing of the Sonmi section of the novel across versions. Further to this, I also signal here a number of reasons why critics might need to consider the production processes of contemporary fiction in order to deal with the multiple and different editions of this text and other contemporary novels.</p>
+</abstract>
+</article-meta>
+</front>
+<body>
+<sec>
+<title>The Two Editions of <italic>Cloud Atlas</italic></title>
+<p>In what must surely have been one of the least well-thought-through corporate censorship moves in recent years, Amazon came under fire in 2009 for remotely removing a book from its users&#8217; e-reading devices (<xref ref-type="bibr" rid="B37">the &#8216;Kindle&#8217;</xref>). Citing copyright problems as the reason for removal, Amazon brought to the fore the issue of unstable textual variants in the digital age in a way that made many readers uncomfortable. The notion that the contents of one&#8217;s library might vanish at the whim of a corporate giant caused great unease. Some wondered whether Amazon might change editions of digital texts even while its customers were reading them (<xref ref-type="bibr" rid="B27">Johnson, 2009</xref>). For, as John Lavagnino noted as far back as 1993, it is a fundamental property of digital texts to be mutable: &#8216;as most have perceived, an electronic edition needn&#8217;t ever stop growing and changing&#8217; (<xref ref-type="bibr" rid="B28">Lavagnino, 1997: n. pag.</xref>). Yet this anxiety about Amazon changing texts and libraries is strange in another related way. Texts have always appeared in different versions, with relative corruption between editions. Perhaps, then, we might account for a slight technologico-positivist bias here behind such an anxiety? For even while it is clear that digital/connected texts are mutable, the assumption among readers seems to be that as technology improves, the risk of different editions emerging from the socio-literary production process should disappear. That Amazon targeted George Orwell&#8217;s <italic>Nineteen Eighty-Four</italic> (1948) for this treatment &#8211; a novel famous for its critique of historical censorship and totalitarian interference with the rights of the individual &#8211; struck many readers as one irony too far.</p>
+<p>Similarly, a comparison of the North-American digital edition of David Mitchell&#8217;s genre- and time- hopping novel, <italic>Cloud Atlas</italic> (2004), with the UK version conjures forth a fresh set of anxieties about literary production. For it quickly emerges that the texts are very different and that readers of <italic>Cloud Atlas</italic> based in the US are likely to encounter a novel that stands starkly apart from that bearing the same title in the UK. Mitchell&#8217;s text, for the uninitiated, consists of six wildly different historical narratives, each of which charts events in a time later than the preceding section and each of which possesses its own distinctive stylistic register. The <italic>syuzhet</italic> of the novel, however, is to arrange these stories in a kind of pyramid formation in which the first narrative breaks mid-way through to begin the second, which in turn breaks to yield the third, and so on. Only the sixth and final narrative is told in one single block, before the fifth narrative&#8217;s second part concludes, cascading back down to the fourth until the reader finishes the novel with the end of the first section.</p>
+<p>However, I have identified that there have been at least two English-language editions of <italic>Cloud Atlas</italic> in widespread circulation, from the very first day of its publication, from which other translated texts and the film script have been derived (see Fig. <xref ref-type="fig" rid="F1">1</xref>). As well as exhibiting many minor linguistic variations and copy-edits throughout (accidentals), these different editions also contain sections of narrative unique to each version that must change any close reading of the text. Given that so much literary criticism has now been produced on the subject of Mitchell&#8217;s novel, twelve years after its publication, these version variants are potentially problematic as they have not previously been noted.<xref ref-type="fn" rid="n1">1</xref> Using a combination of computational, textual-scholarly and more traditional hermeneutic methods, I here set out the substantial differences between the editions of <italic>Cloud Atlas</italic> and point to the future work that must be done to understand the effects of the heavy rewritings that occur across the different versions of the text. I also, below, outline the publishing history of the novel that resulted in these variations, as detailed to me by David Mitchell himself.</p>
+<fig id="F1">
+<label>Figure 1</label>
+<caption>
+<p>The versions of <italic>Cloud Atlas</italic>. The diagram should be read as flowing from top to bottom.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="figures/Fig01_web.png"/>
+</fig>
+<p>The main variations between versions of the text occur in the Sonmi ~451 interview narrative of <italic>Cloud Atlas</italic> and are different between the print and electronic editions of the novel, but also vary from region to region (US vs. UK). The electronic and US variants that I have identified are present in the edition with eISBN 978-0-307-48304-1 but also in other US editions.<xref ref-type="fn" rid="n2">2</xref> The major and significant variations to Sonmi&#8217;s narrative that I have been able to identify within this edition are presented in tabular form in Appendix A, although the first half of the text is substantially different even in matters of minor phrasing. The variant referents herein are structured by Question (Q) and Response (R) numbers as they occur within the UK paperback edition with ISBN 978-1-444-71021-2. I refer to the UK paperback edition of the text as P (for paperback) and the US editions as E (for electronic, where I first noticed the variance). I here cover the major variations between the editions of the Sonmi ~451 narrative as they relate to differences of <italic>syuzhet</italic>, theme, and linguistic expression.</p>
+<p>By way of background to the computational elements of this article, comparative textual scholarship of the sort that I here undertake has been at the centre of the digital turn in literary studies for the past three decades (<xref ref-type="bibr" rid="B4">Deppman, Ferrer and Groden, 2004</xref>). The pioneering work of Jerome J. McGann, for example, in constructing the Rossetti Archive (from a plan set out in 1993 to its completion in 2008) demonstrates how scholars have constructed critical editions as near to comprehensiveness as may ever be possible, using digital tools (<xref ref-type="bibr" rid="B32">McGann, 2008</xref>). Furthermore, early modernists through to modernists have built network diagrams, topic models, visualisations and linguistic/stylometric accounts of texts and their variances, most often in the pages of the journal <xref ref-type="bibr" rid="B44"><italic>Literary and Linguistic Computing</italic></xref>. In addition to the construction of archives, we have also seen the emergence of a more widespread, although still relatively under-explored, quantitative paradigm of so-called &#8216;distant reading&#8217;, in which broad corpora of texts are treated as literary-statistical data in order to move beyond the limits of an individual&#8217;s reading and synthesis (<xref ref-type="bibr" rid="B41">Moretti, 2007</xref>; <xref ref-type="bibr" rid="B42">Moretti, 2013</xref>; <xref ref-type="bibr" rid="B26">Jockers, 2013</xref>). That said, such methodologies have not always been met with rapturous applause and some critics have explicitly claimed that the digital humanities, defined in a narrow way and centred on textual scholarship, is complicit in the rise of &#8216;neoliberal&#8217; management practices within the academy (<xref ref-type="bibr" rid="B1">Allington, Brouillette and Golumbia, 2016: n. pag.</xref>).</p>
+<p>Yet, regardless of how one feels about such digital methods, it is noteworthy that the study of contemporary fiction (a classification that itself can be contested and plural) remains broadly untouched by such approaches for a variety of reasons (<xref ref-type="bibr" rid="B8">Eaglestone, 2013: 1089&#8211;1101</xref>). The first reason is an unclear position on the copyright of contemporary fiction. In the United Kingdom, where I live and work, the exceptions to copyright for research state that &#8216;if a researcher has the right to read a copyright document under the terms of the licensing agreement with the content provider, they must be permitted to copy the work for the purpose of non-commercial text and data mining&#8217; (<xref ref-type="bibr" rid="B25">Intellectual Property Office, 2015: 7</xref>). At the same time, the European Copyright Directive, which remains in force, brings strict penalties for circumventing Digital Rights Management (DRM) copy-protection on electronic media (<xref ref-type="bibr" rid="B11">European Parliament, 2001</xref>). To conduct digital analyses, one must have access to a digital corpus. To build a critical edition, one must have a work that is out of copyright. Obtaining contemporary fiction in a form suitable for digital work can, therefore, prove to be a challenge. A second reason is a lack of technological, programming and mathematical skills among those working on contemporary fiction. This is not meant in a derogatory way, it is simply to note that these approaches do not feature within the basic training received by those scholars who now work on contemporary fiction in English departments around the world. A final reason, in this non-exhaustive survey, is the result of scepticism about what such methods can tell us, as above.</p>
+<p>In this article I tread a fine line between traditional critical methods and those digital approaches that might help us to understand the editorial changes to <italic>Cloud Atlas</italic>. In order to procure the texts in a form suitable for my visualisation and to avoid any risk of copyright violation, I re-keyed and classified most of the novel&#8217;s Sonmi sections from the two editions. As an example of the limits of this approach, however, I do not here perform a full linguistic and editorial collation of Mitchell&#8217;s texts and have instead abstracted the comparison up to a level that will allow us to observe the process and its result while remaining within the bounds of copyright law. For pragmatic reasons, I have opted for such a method rather than taking either a more analytical/literary-critical approach or seeking permission from publishers to create a critical edition. That said, and as I will reiterate below, the way that I have mapped the versions of <italic>Cloud Atlas</italic> against one another is in itself a hermeneutic exercise that others may wish to challenge.<xref ref-type="fn" rid="n3">3</xref></p>
+<p>It is also worth stating that textual scholarship dealing with electronic editions faces a <italic>media</italic> as well as <italic>textual</italic> challenge. It is clear from much research that the embodied experience of reading a physical book is different to reading a digital version, either on a Visual Display Unit (VDU) or on an e-reading device such as the Amazon Kindle (<xref ref-type="bibr" rid="B30">Mangen, 2008: 404</xref>). Further research is thus merited on the effects of reading Mitchell&#8217;s novel in different media environments. In the specific case that I outline here, however, I am working less on the media form/distinctly digital side of Mitchell&#8217;s text and more on the textual &#8216;version variants&#8217;, as Burghard Dedner calls them, that represent &#8216;changes in different printings of the same work&#8217; and come about through the novel&#8217;s publishing history (<xref ref-type="bibr" rid="B3">Dedner, 2006: 15&#8211;32</xref>).<xref ref-type="fn" rid="n4">4</xref></p>
+<sec>
+<title>Differences in Syuzhet</title>
+<p>The first of the changed elements in the text that I will explore here, <italic>syuzhet</italic>, is drawn conceptually from early twentieth-century Russian Formalism (specifically the works of Vladimir Propp and Viktor &#352;klovskij) and refers to the differences between the chronological content of the narrative (the <italic>fabula</italic>) and the way that a particular text organises its presentation of that narrative (<italic>syuzhet</italic>) (<xref ref-type="bibr" rid="B49">&#352;klovskij, 1925</xref>; <xref ref-type="bibr" rid="B46">Propp, 1928</xref>). While such an approach is helpful to understand a text&#8217;s narrative flow, there are several problems in thinking of a binary of <italic>fabula</italic> vs. <italic>syuzhet</italic>. For one, the <italic>fabula</italic>/<italic>syuzhet</italic> scheme privileges ideas of linear time and positivist progression through texts, while we know that actual human experience of time is fragmentary and varied. For another, it assumes that the reader will mentally reconstruct the supposed ur-<italic>fabula</italic> out of any reading exercise, in which case we must ask what the purpose of the <italic>syuzhet</italic> actually may be. Both of these may be particularly problematic in the case of Mitchell&#8217;s anti-positivist novel, which distinctly works against ideas of linear time. However, in the instance of variations across editions with respect to the Sonmi interview, the framing makes sense since there are some significant re-orderings in the presentation of the narrative.</p>
+<p>In all editions, the <italic>fabula</italic> of <italic>Cloud Atlas</italic> remains broadly unchanged. The fabricant Sonmi ~451 is being interviewed by an archivist shortly before her execution for writing a heretical tract known as the <italic>Declarations</italic>. She tells of her initial time working in Papa Song&#8217;s dinery (clearly a parody of McDonald&#8217;s, although this is more pronounced in one edition than the other) before her friend Yoona ~939 becomes self-aware and rebels. The same &#8216;ascension&#8217; to self-consciousness then happens to Sonmi who is taken away to be the experimental subject of a cruel Ph.D. student who exposes her to psychological torture. After she is saved from this sadist, she is taken under the wing of a different student who eventually reveals himself to be part of a rebel faction fighting the global corpocracy. Eventually, Sonmi is shown that the event of &#8216;xultation&#8217; promised to her kind while in slavery is actually a ritual of murder where fabricants are killed and fed back to others in a cannibalistic scenario. Outraged, Sonmi writes her <italic>Declarations</italic>. However, as a final twist, she reveals to the archivist that she has known all along that the entire plot was a setup; a trick in which she will be presented as dangerous through a show trial so that the government can enact harsh clampdown laws on the population in order to fight terrorism. In the closing words of the interview, Sonmi says that she has a longer endgame in spreading her <italic>Declarations</italic>. She then settles down, as her final request before execution, to finish watching the film-within-the-text, <italic>The Ghastly Ordeal of Timothy Cavendish</italic>, the narrative that sits above the Sonmi section within Mitchell&#8217;s nested novel.<xref ref-type="fn" rid="n5">5</xref></p>
+<p>	Those reading either edition of <italic>Cloud Atlas</italic> would be able to summarise the narrative in this way and, to all intents and purposes in conversation, would probably not stumble across any differences that could not be attributed to a failure of memory. However, there are substantial differences. While I will go on to deal with some of the thematic changes that these variances introduce, it is worth noting that the substantial additional volume of material in P causes a misalignment between editions. While part one of E consists of 108 questions and responses, P breaks after 131. Likewise, P contains a total of 210 questions while E has only 194. In the P edition the questions and responses (counting from the beginning of Sonmi&#8217;s narrative) 4, 5, 6, 8, 9, 11, 12, 21, 22, 23, 24, 32, 33, 37, 43, 44, 56, 60, 74, 128, 159, 172, 173, 189, 190, 207, and 208 have no correlative in the E edition. Conversely, again counting questions and responses, in edition E the following segments exist that have no matching component in P: 10, 33, 34, 49, 61, 78, 116, 117, 118 (R only), and 176.</p>
+<p>In order to dig down into the differences between Mitchell&#8217;s variant editions, and as it is fairly complex to discuss these elements in abstract question and response numbers between texts, the overall comparison and flow between P and E is schematised in Figure <xref ref-type="fig" rid="F2">2</xref>. This figure was produced by encoding the information that I had produced and interpreted in Appendix A into a JavaScript Object Notation (JSON) file that contains my correlation data (presented as an attached data file with a note on the JSON dictionary structures available in Appendix B). I then modified Mike Bostock&#8217;s implementation of Sankey diagrams for d3.js to allow unlinked weighted nodes (in order to represent sections of the text that did not have correlates in the other edition) (<xref ref-type="bibr" rid="B14">Eve, 2015</xref>). I then extracted the generated Scalar Vector Graphic (SVG) file.</p>
+<fig id="F2">
+<label>Figure 2</label>
+<caption>
+<p>Visualisation of the <italic>syuzhet</italic> re-ordering between the E edition and P edition of <italic>Cloud Atlas</italic>.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="figures/Fig02_web.png"/>
+</fig>
+<p>The diagram should be read from top to bottom as a narrative chronology, with the P edition represented in the left-hand column and the E edition in the right. Instances of whitespace between links highlight areas where one edition contains questions and responses that are not present in the other. Points where the link lines cross represent the four instances of re-orderings of questions. Where a block-link splits, this represents cases where one question was broken into several in the other edition. As Jerome McGann noted as far back as 1987 that a &#8216;good textual-critical picture of any work will [&#8230;] highlight the various authorities and their relations with each other&#8217; (<xref ref-type="bibr" rid="B19">McGann, 1987: 166</xref>), it is also important to state that there is no authority relation in the ordering of P on the left and E on the right, as will become apparent when I come to discuss the publishing history of the novel. In other words, P should not be considered definitive over E or <italic>vice versa</italic>. Finally, the width (or &#8216;weight&#8217;) of the link signals the relative number of questions and responses in a contiguous block. If there were five questions and responses that matched between editions, then the line width is ten (one for each question and one for each response). In this way, we can visualise the displacement and re-ordering that has happened between P and E editions of the novel. PQ represents &#8216;P edition Question&#8217; while PR is for &#8216;P edition Response. EQ and ER stand for the E editions&#8217; questions and responses.</p>
+<p>Although there is barely any precise, sustained, contiguous textual re-use between editions (the narrative has been almost totally re-written in nearly every sentence), the methodology through which I approached this comparative reading of the <italic>syuzhet</italic> was initially at a thematic level. If a question and answer contributed roughly the same overall meaning to the narrative, then I have called them functionally equivalent, even if there are linguistic differences that others may wish to explore. For instance, at one point in P we are given: &#8216;How did you respond?&#8217;; while in E the text reads: &#8216;How did you respond to such blasphemous hubris?&#8217; (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008]: 198; EQ27</xref>). As these are functionally equivalent as prompts, I have treated them as synonymous. This did lead to a small number of borderline cases. For example, P8 concerns whether fabricants dream while E6 asks if fabricants have a sense of time. These are, in some ways, performing the same role within the narrative, namely: to establish whether fabricants are sentient beings with the same categories of understanding as humans, thereby seeking to place them within a broad frame for moral considerability. In this case, though, the difficulty of correlation is compounded by the fact that P13 also asks about the fabricants&#8217; sense of time. I therefore opted to signal P8 as an isolated block that does not occur in E and to mark P13 and E6 as correlatives. Another way I could have done this would have been to split E6 as constituted by P8 and P13. In other words, I acknowledge that much of this parallel reading is hermeneutic in its data derivation and may be contested (P6 is one such instance).</p>
+<p>In addition to the significant number of isolated, non-correlated narrative blocks, it is also the case that in four instances the order of questions within the narrative is reversed across editions. P46 and P47 (equivalent to E31 and E32), P191 and P192 (equivalent to E176 and E177) are switched, P58 moves to E40, and P55 is split into E43-E44. These respectively pertain to media reports on the Yoona ~939 deviancy or whether Yoona discussed the escape plan with Sonmi (P36/P47 and E32/E31) and the video evidence of xultation and the archivist&#8217;s outrage at the cannibalism (P191/P192 and E177/176). P58, on the other hand, moves up to E40 and concerns the memory capacity of fabricants. The final switch concerns the split of P55 into E43-E44, which discusses Sonmi&#8217;s comet-shaped birthmark. These are the points where the <italic>syuzhet</italic> of the story is changed.</p>
+</sec>
+<sec>
+<title>Differences of Theme</title>
+<p>From the visualisation above, it is clear that these versions of the texts are substantially different both in what they each do or do not contain and the re-ordering of material. What, though, do these extra sections add or subtract from the thematic concerns of each edition?</p>
+<p>Let us first turn systematically to the P text to identify aspects that appear there that are not present in the E edition.<xref ref-type="fn" rid="n6">6</xref> To begin with, P4-P6 provide far greater background about Papa Song&#8217;s diner and the assembled cast of fabricants therein. Specifically, in P we are told that the diner is staffed by approximately &#8216;fourteen&#8217; fabricants and that &#8216;four hundred consumers could be seated&#8217;, details of scale that are absent from E (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008, &#8216;P&#8217;]: 188</xref>). Such details are important in the P text in order to emphasise the degradation of the fabricants. Indeed, the numerical details concretely quantify the degree of labour that is expected to be performed by the slave workers, each serving nearly 30 customers at a time. Following this same line, in P8 and P9, as before, we have a discussion about whether fabricants can dream that is not present in E while in P11 there is a comparison of a fabricant&#8217;s life-experience to children&#8217;s incomprehension of the idea of &#8216;work&#8217; happening outside of their home. This omission of the narrative concerning dreaming in E, in addition to once more making the fabricants more or less humanlike, could be important for thinking about the diegetic layering of the novel. After all, the abrupt jumps between different sections at unpredictable intervals in the text are strongly reminiscent of the uncontrolled experience of waking from a dream, while it is also clear that dreams play a key role in Mitchell&#8217;s other works, demonstrated most clearly in the title of <italic>Number9Dream</italic> (<xref ref-type="bibr" rid="B35">2003</xref>). This aspect of dreaming recurs in P74, which I have classified as borderline case that can be correlated to E61 but is significantly different enough that I have here deemed it to be an isolated question and response. Indeed, the P edition here opens with a paragraph on Sonmi&#8217;s sleep patterns that does not appear in E. On the other hand, both P74 and E61 introduce Wing ~027 and speak of natural awakening, free of stimulin (a chemical used in Mitchell&#8217;s novel to regulate the sleeping patterns of the fabricants), including some very similar, albeit imprecise, textual similitude (&#8216;Wing told me that any randomly thrown together pureblood&#8217; / &#8216;Wing said if a randomly assembled pureblood&#8217;), again returning to the idea of dreams and waking (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008, &#8216;P&#8217;]: 215</xref>). In cutting or altering these sections in one edition, there becomes less of a case for thinking about Mitchell&#8217;s novel in terms of dream-worlds and the power of the subconscious to produce enveloping or parallel narrative contexts to one&#8217;s waking experience.</p>
+<p>The P text continues in this vein to build a more thorough picture of the fabricants as a race unjustly stripped of their humanity when P12 provides detail of the elevator at Papa Song&#8217;s and specifically the fact that it cannot function without a &#8216;soul&#8217; on board, an aspect that is reported in a different context in E32 (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008, &#8216;P&#8217;]: 189</xref>). Likewise, P21-P24 give an interesting case of a narrative that does not occur at all in E. In this section of P, Yoona ~939&#8217;s initial deviancy is to &#8216;address a diner uninvited&#8217; whereas in E the first sign of trouble is instead a &#8216;dinery server behaving like a pureblood&#8217; (E21), primarily through enhanced eloquence (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008, &#8216;P&#8217;]: 192</xref>). The attention paid here to eloquence and educated speech seems to be the primary focus in E, whereas in P it is the back-talk to a supposedly superior customer; a type of divide between education and etiquette in E and P respectively. This theme of education proliferates throughout the P text in explicit and implicit ways. P37, for instance, asks whether Yoona ~939 can read like a pureblood, whereas in E this is skirted by signalling from the outset that the book is a picture book (and therefore that Yoona would not need to read; see E23) (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008, &#8216;P&#8217;]: 197</xref>).</p>
+<p>In addition to these other humanising elements, P42, although in many ways functionally equivalent to E29, gives a huge quantity more material on the bullying that Yoona ~939 endured at the hands of Seer Rhee than in the E text. Indeed, in P42 Yoona is made to recite the Papa Song welcome 95 times before talking back to the Seer (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008, &#8216;P&#8217;]: 199</xref>). E29, by contrast, simply says in a single line that mental illness was a factor in triggering Yoona ~939&#8217;s deviancy. The differing degrees of bullying that Yoona endures in each of the editions has an effect on how readers can understand her breakaway. Indeed, in the P text readers are more likely to sympathise with the Yoona character, since the brutality of her treatment is amplified, whereas in E the reader is told, at this point, to believe Yoona&#8217;s act to be a result of &#8216;mental illness triggered by xperimental error&#8217;. At the same time, by the laws of literary economy, because of this earlier amplification of assault in P, Yoona&#8217;s subsequent execution is perhaps lessened in horror due to the relative abundance of arbitrary cruelty in the P edition. Yet, even amid this difference of scale of the horror depicted between editions, it is also worth highlighting that the fabricants are not the only characters to be given a more extensive back-story and broader existence within the P text. Indeed, P32-P33 gives additional background material on the glamour of Seer Rhee&#8217;s wife that is not within E, which goes some way towards humanising the aggressors as well as the victims. At the very least, the presentation of the external life of the slave driver here yields an awareness that &#8216;ordinary&#8217; people can do extraordinary evil.</p>
+<p>Returning to a similar front of an altered textual economy of violence, however, P43-P44 provides another sub-narrative that does not occur in E. In this section of P, Yoona confesses to Seer Rhee&#8217;s face that she thinks he is a &#8216;roach&#8217; and he proceeds to violently beat her to a pulp, ripping out her acquired stars. Again, this tends towards a version of the novel that is more explicitly concerned with a proliferation of aggression, rather than a slower build-up towards the horror of the cannibalisation ship, altering the readerly experience of horror through pacing and over-saturation. Furthermore, while in P44 it is made clear that while the Seer can do this and has the legal &#8216;right&#8217; to damage &#8216;property&#8217; (i.e. fabricants) with impunity, it is also noted that this will lower his standing, while in E21 we are told instead only that &#8216;Seer Rhee was thenceforth unable to discipline Yoona without implying criticism of a senior corp medic&#8217; (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008, &#8216;P&#8217;]: 200</xref>). The claim of the legal right to damage property (that is, people), in the P text, points clearly towards a context of American slavery and its comparison to indentured servitude through the McDonald&#8217;s-esque dinery environment. Such a strong political critique, though, is downplayed in the E version, released in the US and elsewhere worldwide. That said, the complicity of the medical apparatus within the culture of violence, clear already in the E text through the above mention of a senior corp medic, is also present in P when P56 gives details of a medical examination of Sonmi that does not feature in E.</p>
+<p>Differentiated elements of characterisation between the editions also intersect with the narrative pathway of the grand conspiracy. For instance, in P60, Mitchell provides more information about the difficulties Sonmi had in passing herself off as an unascended fabricant alongside an early initial hint that there is some manner of conspiracy to be uncovered, aspects that do not appear at all in E, or only surface far later. Again, this appears to be a shift in pacing of the text, one in which the P edition is happier to show its hand at a far earlier stage than E and reads, altogether, as a far darker work. Indeed, the final instance of additional material before the mid-way break in the P edition is in P128 and the question-only portion of P129. These sections concern Sonmi&#8217;s opinion of <italic>The Ghastly Ordeal</italic>, but furthermore contain the metatextual, foreshadowing line for both &#8216;An Orison of Sonmi ~451&#8217; and also for the following section on &#8216;Sloosha&#8217;s Crossin&#8217; that does not occur in E: &#8216;It all sounds grimly dystopian&#8217; (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008, &#8216;P&#8217;]: 244</xref>). Given the clear generic description being undertaken in this line, it is unsurprising to find that it has already been cited in the scholarly literature, despite not appearing in the E text (<xref ref-type="bibr" rid="B50">Stephenson, 2011: 234</xref>).</p>
+<p>After the break in the P edition, there are fewer unique sections but where they do occur they seem to pertain to issues of leadership and conspiracy. P159, for instance, gives information on the supposed scope of Unanimity&#8217;s knowledge of the conspiracy, claiming that they did <italic>not</italic> know of the entire plot, which seems to be later contradicted by Sonmi&#8217;s claim that the entire situation is an entrapment. On matters of leadership, P172 and P173 contain additional information on the Abbess and her particular sympathies with the rebels, perhaps of interest to those studying the role of remote monasteries and their leaders in Mitchell&#8217;s other works, <italic>The Thousand Autumns of Jacob de Zoet</italic> (<xref ref-type="bibr" rid="B38">2010</xref>) and <italic>The Bone Clocks</italic> (<xref ref-type="bibr" rid="B39">2014</xref>). Indeed, the omission of these passages from the E text yields a far weaker intertextual resonance with Mitchell&#8217;s other works than does the P edition. Moving towards the end of the novel, P198-P190 contains another assertion by Sonmi that the trial was all a show and also disbelief from the archivist at the horror of the feeding/execution ship that is perhaps more surprising than in E, since there has been more violence throughout the P edition in general. Finally, P207-P208 concern whether Sonmi has regretted her life to date (she replies that she cannot, since &#8216;free will plays no part in [her] story&#8217;) but also as to whether she loved Hae-Joo Im, thus yielding alternately dehumanising (lack of free will) and rehumanising (love) elements, which are not present in E (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008, &#8216;P&#8217;]: 365</xref>). Thus, in sum, the sections present in P but absent in E alter various political, historical, intertextual and characterological elements of the text and particularly affect the pacing and degree of foresight available to the reader.</p>
+<p>Reversing the texts and now studying the chunks of E that are unique also paints a somewhat different picture. In terms of the mechanics of this edition, E10 asks whether fabricants have personalities, which Sonmi confirms, thereby more weakly proposing the humanity of the slaves. E33 gives a straightforward opportunity for Sonmi to assert that her experience of subsequent events validates her future experience. On the other hand, E34 is one of the hardest borderline sections to classify. This episode is roughly an amalgamation of P45 and P47 but these also feed into E31-E32. However, E34 presents the narrative of the kidnap in a very different way to, say, P45 because the P text has to account for the previous beating and Yoona&#8217;s degraded physical condition, which does not occur in the E text. E49 is again a brief question and answer, asking Sonmi whether she envied the naive ignorance/innocence of the other servers, to which she responds that envying this is still not equivalent to wishing to be among the ignorant. This is an important isolated segment since it foreshadows the questions about innocence and &#8216;equitable commerce&#8217; that recur later aboard the execution ship (P192). Indeed, the way in which the two versions of the narrative play with notions of innocence, in both legal and moral senses, is different between editions. For information on E61, see the preceding discussion of P74. E78 notes that Sonmi&#8217;s description of the snow means that she &#8216;speaks like an aesthete&#8217;, to which she poetically replies &#8216;perhaps those deprived of beauty perceive it most instinctively&#8217;. Finally, among the smaller edits here, the response to E118 is functionally equivalent to P129 but the question itself is so very different that I have marked it here as an isolated block.</p>
+<p>Of E&#8217;s additional textual segments, however, it is perhaps E116 and E117 that are to my mind the most important and interesting, for these pertain to the archivist and contain many metahistorical statements. A change of the balance of these elements between versions of the text is important since there have been several critical-political commentaries on time/history (say, in Caroline Edwards&#8217; interweaving of utopian thought with Mitchell&#8217;s unifying motif of transmigration [<xref ref-type="bibr" rid="B9">Edwards, 2011</xref>]) that are also linked to ideas of historiographic metafiction<xref ref-type="fn" rid="n7">7</xref> within the novel&#8217;s aesthetic and epistemic structures (seen in the work of <xref ref-type="bibr" rid="B29">H&#233;l&#232;ne Machincal [2011]</xref> and <xref ref-type="bibr" rid="B7">Nicholas Dunlop [2011]</xref>). At the same time, though, much of this meta-historical thinking, even when contemplating the relationship between archival (arte)facts and the historical narrative spun from such objects, relies nonetheless upon the creation of an archive. It is, therefore, of significance for critical-historical thinking about <italic>Cloud Atlas</italic> that Sonmi&#8217;s final account is to be placed into an archive by a figure identified only as an archivist. It is of even more significance, though, that the text represents this act of archiving in different ways across its different versions.</p>
+<p>In E116, for instance, the archivist notes that the existence of the archive is kept secret from the masses (&#8216;downstrata&#8217;), to which Sonmi replies &#8216;Xcept from those condemned to the Litehouse&#8217;; her present situation. In other words, in E116 the archive is revealed most fully to be a political function of the state, manipulated publicly at times of a sovereign power exercising its right of execution over its denizens. Such a line of thinking about state power is, indeed, more generally prevalent throughout the E text and is linked not just to the function of the archive&#8217;s manipulation but also to the state&#8217;s own perpetuation, which here yields a pre-Marxian or post-Fukuyamaian dystopian account of corpocracy (the capitalist consumer state) as a timeless, supposedly natural phenomenon: &#8216;future ages&#8217;, E117 tells us, &#8216;will still be corpocratic ones&#8217;. In this fixing of historical time as capitalist time, capitalism can either be seen as natural &#8211; that is, pre-Marxian, in the sense that Marx historicised and relativised capital, thereby disenchanting it of its &#8216;natural&#8217;-ness &#8211; or as the supposed victor among all other possible permutations of social relations (the &#8216;end of history&#8217; thesis, in which capitalism is the final and unchanging form on which social production and relations supposedly come to rest, as outlined by <xref ref-type="bibr" rid="B17">Fukuyama [2006]</xref>). By choosing which elements of the archive to make publicly visible, the implication of E116 and E117 is that while public history remains a narrative, it is here spun through state control. Hence, although many works of historiographic metafiction appear to claim a liberatory function in their pluralisation and reclaiming of dominant (white, straight, male, able) narratives (from Thomas Pynchon through to John Fowles and Jean Rhys), it is difficult in Mitchell&#8217;s text to fully conceive of such political potential, since the underlying archive itself has been subject to interference and blockage. This is not to say that real, extra-fictional, archives are not also subject to state control and selectivity. It is to note, instead, that in this case the situation is doubly complex since the pluralisation of the novel itself gives us multiple, sometimes conflicting, chronologies around which to base our own interpretations. As the novel puts it in EQ19 and PQ30: &#8216;[a] duplicitous archivist wouldn&#8217;t be much use to future historians&#8217; / &#8216;[a] duplicitous archivist wouldn&#8217;t be much use to anyone&#8217;.</p>
+<p>Furthermore, on this note, E117 contains several metahistorical elements that are crucial not only for the text as a whole (metafictional statements about <italic>Cloud Atlas</italic>&#8217;s timespan and the interrelatedness of various histories: &#8216;The past is a world both indescribably different from and yet subtly similar to Nea So Copros&#8217;) but also for the work&#8217;s declarations on class in capitalist America, based on racism: &#8216;corpocracy was emerging and social strata was demarked, based on dollars and, curiously, the quantity of melanin in one&#8217;s skin&#8217;. This politically and historically inflected line does not occur in P, although, as seen above, there are many elements of labour and brutality linked to slavery that are present in P and absent in E. Finally, this culmination reaches its peak when E176 provides an additional space for the archivist to express outrage at the murders of fabricants that intensifies his horror but also directly links the execution ship to the Holocaust, describing it as &#8216;industrialized evil&#8217;, to which Sonmi replies that the archivist has underestimated &#8216;humanity&#8217;s ability to bring such evil into being&#8217;, with echoes of Hannah Arendt&#8217;s account of a banal evil (<xref ref-type="bibr" rid="B2">Arendt, 2006</xref>). Indeed, if ordinary/banal evil is demonstrated by giving Seer Rhee an external existence in the P text, the Holocaust &#8211; to which this language of &#8216;humanity&#8217;s ability to bring such evil into being&#8217; most often pertains &#8211; is far more explicitly articulated in the E edition. Certainly, both versions of the novel contain imagery that summons the Holocaustal metonym of the gas chambers through the &#8216;slaughterhouse production line&#8217; in which &#8216;drains hoovered the blood&#8217;. In the P text, though, much of the archivist&#8217;s horror lies in the <italic>economic</italic> fact that he thinks fabricants face their execution instead of being taken to a retirement home where they will be fairly paid for their slavery. In the E text, by contrast, the P version&#8217;s mere &#8216;nitemarish&#8217; becomes &#8216;industrialized evil&#8217;, a historical enframement, as Christopher Sims puts it, of mechanised and routinised death, most frequently associated with the Holocaust, that here is hidden by a state that wishes to preserve its own existence, through overt political storytelling, based on covert manipulation of a hidden archive (<xref ref-type="bibr" rid="B48">Sims, 2013: 217</xref>).</p>
+</sec>
+<sec>
+<title>Differences of Language</title>
+<p>If these preceding elements form the unique thematic concerns of both P and E, which alter how the text can be read, it is also the case that almost all of the correlated sections have undergone extensive modification between editions. As just one example, consider P1:</p>
+<disp-quote>
+<p>&#8216;Historians still unborn will appreciate your cooperation in the future, Sonmi ~451. We archivists thank you in the present. [&#8230;] Once we&#8217;re finished, the orison will be archived at the Ministry of Testaments. [&#8230;] Your version of the truth is what matters.&#8217;</p>
+<p>&#8216;No other version of the truth has ever mattered to me.&#8217; (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008, &#8216;P&#8217;]: 187</xref>)</p>
+</disp-quote>
+<p>As opposed to E1:</p>
+<disp-quote>
+<p>&#8216;On behalf of my ministry, thank you for agreeing to this final interview. Please remember, this isn&#8217;t an interrogation, or a trial. Your version of the truth is the only one that matters.&#8217;</p>
+<p>&#8216;TRUTH IS SINGULAR. ITS &#8216;VERSIONS&#8217; ARE MISTRUTHS.&#8217;</p>
+</disp-quote>
+<p>Even though it is clear, within the progression of the interview, that these sections fulfil roughly the same function across editions, it is also the case that a close reading here could yield very different interpretations. For those considering Mitchell&#8217;s text within a frame of historiographic metafiction, as above, there is a substantial difference between &#8216;No other version of the truth has ever mattered to me&#8217; and &#8216;TRUTH IS SINGULAR. ITS &#8216;VERSIONS&#8217; ARE MISTRUTHS&#8217; (see <xref ref-type="bibr" rid="B24">Hutcheon [1988]</xref>). Indeed, the former contains a social-constructivist view of truth while the latter renounces such a stance. It is also the case that the reference to &#8216;historians still unborn&#8217; immediately places the entire section of P in the context of a future archive, preserved for history, whereas in E this context is less pronounced. This is an important difference based on rewriting, not only for the reasons outlined above that pertain to politics and state control of history, but because it also brings a type of meta-playfulness to the fore. It is clear that, in Mitchell&#8217;s novel, the state manipulates the future-historical archive so that different versions are available to different audience groups, as it sees fit. Yet, in the same way, the editorial process of <italic>Cloud Atlas</italic> has led to the surfacing of multiple texts in different regions and media, each designed to achieve subtly different rhetorical effects upon readers. The statements about multiple truths being &#8216;untruths&#8217; is, therefore, telling in terms of <italic>Cloud Atlas</italic> as a work of metafiction.</p>
+<p>Likewise, the responses to P2 and E2, although only subtly different, can result in wildly different interpretations of the significance of particular responses. Take PR2:</p>
+<disp-quote>
+<p>&#8216;I have no earliest memories, Archivist. Every day of my life in Papa Song&#8217;s was as uniform as the fries we vended.&#8217; (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008, &#8216;P&#8217;]: 187</xref>)</p>
+</disp-quote>
+<p>and then compare this to ER2:</p>
+<disp-quote>
+<p>&#8216;Fabricants have no earliest memories, Archivist. One twenty-four-hour <italic>cycle</italic> in Papa Song&#8217;s is indistinguishable from any other.&#8217;</p>
+</disp-quote>
+<p>In PR1 there is a subtle jab at McDonald&#8217;s (and other generic fast-food venues), along with a pun on &#8216;uniform&#8217; for the outfits of the servers. In ER2, however, there is no such attack on corporate cultures but there is an insertion of the italicised word &#8216;<italic>cycle</italic>&#8217;. The word &#8216;cycle&#8217; is, of course, one that is key to <italic>Cloud Atlas</italic>. The text builds up through its layers, only to wind back down, travelling forward through history, only to return to the past. The central sub-narrative of the novel is also a future civilization cyclically regressed to the iron age that draws inspiration from Russell Hoban&#8217;s <italic>Riddley Walker</italic> (1980) (see <xref ref-type="bibr" rid="B12">Eve [2014]</xref>). In using the term &#8216;cycle&#8217; here to refer to life at Papa Song&#8217;s, the E edition implies that the fabricants&#8217; daily existence can stand as a metonym for the grand cycles of history that run throughout the novel. Such a stance is harder to draw from the P text, since this type of grand statement simply does not occur in that edition.</p>
+<p>Indeed, the primary conclusion that I have been able to draw from this comparison is that with the extent of modifications in these variants &#8211; at levels of <italic>syuzhet</italic>, theme and language &#8211; the different editions of <italic>Cloud Atlas</italic> are so distinct as to render close readings between editions to be almost incomparable. That said, sometimes critics do get away with using a single version. Patrick O&#8217;Donnell, for example, dedicates quite some space to the ratios of division of the Sonmi narrative, describing &#8216;An Orison of Sonmi ~451&#8217; as split &#8216;5/8<sup>th</sup> to 3/8<sup>th</sup>&#8217; (<xref ref-type="bibr" rid="B43">O&#8217;Donnell, 2015: 76&#8211;8</xref>). O&#8217;Donnell is using the E text here, which can be seen when he gives a spaced version of &#8216;conurbdwellers&#8217; (PR167) as &#8216;conurb dwellers&#8217; (ER155) (<xref ref-type="bibr" rid="B43">O&#8217;Donnell, 2015: 94</xref>). In O&#8217;Donnell&#8217;s favour, though, even in the P text the ratio of the two different variants remains approximately 5/8<sup>th</sup> to 3/8<sup>th</sup> since the P edition is longer but breaks later. On the other hand, and with apologies to the specific figures on whom I am picking here (I could have selected almost any previously published work that deals with the Sonmi section of the text), Nicholas Dunlop has argued that the fact that purebloods cannot distinguish between fabricants is &#8216;a matter of myopic hegemonic perception&#8217;, based on the fact that Sonmi says &#8216;Pureblood [naked] eyes cannot discern these differences, but they exist&#8217; (<xref ref-type="bibr" rid="B7">Dunlop, 2011: 221, n4</xref>). Yet this line does not exist in E, only in P. This would weaken such an argument in the E text by connecting the myopia to the eyesight reference.<xref ref-type="fn" rid="n8">8</xref> Elsewhere, whole theories of the postmodern intertextuality of <italic>Cloud Atlas</italic> have been composed that neither know of, nor mention, the different editions and how they interact (<xref ref-type="bibr" rid="B5">D&#8217;haen, 2013: <italic>passim</italic></xref>). This is, as per my introduction, partly a matter of corpus. The digital methods that can easily spot such discrepancies without the investment of the labour time of comparative side-by-side readings of works are only available if a digital version is present of all editions and if a researcher has the technical expertise to undertake such work. Yet, while we seem adept at studying the inter-textuality of contemporary fiction, we are often poor at spotting the intra-textuality of single texts between published versions. There is, I would therefore venture, no singular &#8216;<italic>Cloud Atlas</italic>&#8217;. With echoes of Louis Hay, there are at least two <italic>Cloud Atlas</italic>es (<xref ref-type="bibr" rid="B21">Hay, 1988: 73</xref>).</p>
+</sec>
+</sec>
+<sec>
+<title>The Transmission and Publishing History of the Variants</title>
+<p>The differences between the published editions of <italic>Cloud Atlas</italic> are not the resultant error from any technical process. Indeed, as N. Katherine Hayles has pointed out, the process for creating print and digital is by now largely the same (digital/XML-first) and should not result in substantially different editions (<xref ref-type="bibr" rid="B22">Hayles, 2012: 4</xref>). Yet, this can trigger a type of faith in the perfection of the production process of contemporary fiction of which we should beware. For technical processes are not the only ways in which discrepancies and variants can enter circulation; literary production is social and co-productive. Indeed in the case of <italic>Cloud Atlas</italic>, when I first encountered these variations, I hypothesised two possibilities for how this differentiation could have arisen: 1.) that Mitchell deliberately submitted different versions for different editions, with or without the knowledge of, or at the request of, the publisher; or 2.) that the publisher accidentally used a pre-revision version and failed to implement subsequent changes. Either of these, however, complicates a widespread belief that textual variance is a phenomenon unique to archival research into texts from past eras.</p>
+<p>It turns out that the truth of the lineage lies somewhere between these two hypotheses. In January 2016, David Mitchell replied to my query on how these variants had been introduced:</p>
+<disp-quote>
+<p>The differences between the two editions came about by a combination of chance and my inexperience. The chance element was that in spring 2003 my American editor left my publisher Random House to take up a job elsewhere. I think 3 or 4 months passed before David Ebershoff, who would be my US editor until the end of 2015, took me and my weird and risky new novel under his professional wing. During this interregnum the manuscript for CLOUD ATLAS was &#8216;orphaned&#8217;. I interacted with my UK editor and copy-editor on the manuscript, but there was no-one in New York &#8216;synch-ing up&#8217; the changes I made with the US side to form a definite master manuscript, as has happened with all my subsequent novels.</p>
+<p>In late summer (I think) David Ebershoff took me over, and gave the MS to the Random House copy-editor plus, I think, an external copy-editor, and presented me with a substantial list of line edits which the UK team had not highlighted (as is normal, and it goes both ways.)</p>
+<p>Due to my inexperience at that stage in my uh three-book &#8216;career&#8217; it hadn&#8217;t occurred to me that having two versions of the same novel appearing on either side of the Atlantic raises thorny questions over which is definitive, so I didn&#8217;t go to the trouble of making sure that the American changes were applied to the British version (which was entering production by that point probably) and vice versa. It&#8217;s a lot of faff &#8211; you have to keep track of your changes and send them along to whichever side is currently behind &#8211; and as I have a low faff-tolerance threshold, I&#8217;m still not very conscientious about it, which is why my US and UK editors now have their assistants liaise closely.</p>
+<p>These days when I ask one side to make a change to the MS or proof, the other applies the same amendment, and all is well. Back in 2003 this wasn&#8217;t the case, hence the two versions. Though to be fair to me I really never dreamed back then that anyone would ever notice or care enough to email me about it, or that the book would still be in print 13 years later, let alone sell a couple of million copies and be studied or thought about by academics. (<xref ref-type="bibr" rid="B15">Eve, 2016: n. pag.</xref>)</p>
+</disp-quote>
+<p>Without regressing to a naive conflation of authorial intention and copy-text, it is, nonetheless, of note that the textual variations and relative corruption between editions are a result of social, editorial and authorial processes; a transmission history (<xref ref-type="bibr" rid="B31">McGann, 1983</xref>).<xref ref-type="fn" rid="n9">9</xref> There was no one single point at which a different edition was submitted by Mitchell but, rather, the interaction between author and editors/publishing houses separated by geographical distance caused the editions to fall out of sync. We can also accurately say of the textual stemma here that the two versions of <italic>Cloud Atlas</italic> are co-genetic with one another and do not fall into a neat consecutive historical lineage. That said, the E edition is, on the whole, a later version due to the editorial delay on the US side, even though its genetic root lies in the same originally submitted manuscript as P.</p>
+<p>It is also notable, in this instance, how much we can glean about the editorial processes that went into the production of this text. While we do not have access to the original manuscript that was submitted &#8211; and Mitchell&#8217;s &#8216;low faff-tolerance threshold&#8217; makes it unlikely that we will get hold of it in any near future &#8211; we can infer, from the extensive differences between the texts, that at least one of the publishers asked for substantial rewrites.<xref ref-type="fn" rid="n10">10</xref> It could be, of course, that one of these editions is closer to the original submitted manuscript than the other. It could also be the case that both went through extensive rewrites from their shared ancestral manuscript. What is clear is that there were different house-styles and copy-editing standards applied at each publishing house. P&#8217;s house style, as below, allows ordinal numbers in the text, for instance (3<sup>rd</sup> etc.) while E prefers these to be spelled out (third). Indeed, there certainly seems to be potential evidence here against Mark Crispin Miller&#8217;s notorious attack two decades ago on Random House&#8217;s reputation as a corporate publisher, in which he excoriates their editing procedures (see <xref ref-type="bibr" rid="B34">Miller [1997]</xref> and <xref ref-type="bibr" rid="B16">Finkelstein and McCleery [2013]</xref>).</p>
+<p>Future research on the version histories of <italic>Cloud Atlas</italic> may also wish to consider the translations of the text and to identify the specific source editions from which the translators have worked. My own initial work on the Editions de l&#8217;Olivier, French version of the text, <italic>Cartographie des Nuages</italic> [2007] (ISBN 978-2-87929-485-8) &#8211; translated by Manuel Berri (who is thanked as an acknowledgement in the P and E editions) &#8211; indicates that the work was done from the E edition of the text. This can be seen in the first line of the Sonmi interview section, where Berri has clearly translated from E1: &#8216;La v&#233;rit&#233; s&#8217;&#233;crit au singulier. Ses &#171; versions &#187; sont des contrev&#233;rit&#233;s&#8217; (<xref ref-type="bibr" rid="B40">Mitchell, 2007: 209</xref>). The film version of <italic>Cloud Atlas</italic>, for what it is worth, seems to have derived its script from the E manuscript (which tallies with its Hollywood/US location). Indeed, the opening words of the Archivist (EQ1) are only slightly different from the film text here (&#8216;[o]n behalf of my ministry, thank you for agreeing to this final interview&#8217; [E]; against &#8216;[o]n behalf of my ministry and the future of Unanimity, I would like to thank you for this final interview&#8217; [<xref ref-type="bibr" rid="B51">film</xref>]).</p>
+<p>Finally, in light of these notes, I suggested to Mitchell that he might be toying with the reader here and playing with the &#8216;archival&#8217; interview format. For archiving something for safe keeping, as Mitchell&#8217;s &#8216;archivists [&#8230;] in the present&#8217; are doing with the unrepeatable words of the death-penalty convict on behalf of &#8216;[h]istorians still unborn&#8217; (PQ1), implies that the archive is stable, unique, and preserved; hence the importance of unique identifiers for unique objects in the fields of contemporary library and information sciences (<xref ref-type="bibr" rid="B45">Pomerantz, 2015: 62&#8211;4</xref>). To present such a process in a text where the different variations obviate stability, uniqueness, and singular preservation would, I thought, make for a tidy and ironic trans-textual statement. Mitchell, however, in his typically self-deprecating fashion noted that while such a reading gives &#8216;a new heft to the archivist&#8217;s words&#8217;, he believes &#8216;the discrepancies could not really be called a trans-textual statement&#8217;, but were instead born, in his words, from &#8216;sloth and authorial innocence&#8217; (<xref ref-type="bibr" rid="B15">Eve, 2016: n. pag.</xref>).</p>
+</sec>
+<sec>
+<title>Contemporary Fiction and Version Variants</title>
+<p>It is true that many other parts of the text are different in more minor ways to the Sonmi narrative and I have not produced a detailed line-by-line comparison of the whole text. Indeed, as above, such a move would undoubtedly violate copyright law. As two arbitrarily selected examples of the ways in which the P and E texts differ elsewhere, though, see: &#8216;Isn&#8217;t that what all dumped women do?&#8217; (P) / &#8216;Don&#8217;t all dumped women?&#8217; (E); &#8216;3rd Avenue&#8217; (P) / &#8216;Third Avenue&#8217; (E) (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008, &#8216;P&#8217;]: 98, 122</xref>). Certainly, however, it is the Sonmi narrative that bears the greatest differences between editions. The comprehensive rewritings of the Sonmi section are simply not present in other areas of the text, although much of it bears the hallmarks of editorial copy-editing for house-style.</p>
+<p>Taking this textual variance, though, as an element of <italic>Cloud Atlas</italic> that can and should be <italic>read</italic>, the suggestion that this raises &#8211; for those teaching <italic>Cloud Atlas</italic>, for those studying other texts by David Mitchell, and for those working in any space of contemporary fiction &#8211; is that trans-textual variance should be considered in the act of interpretation, as textual scholars have suggested for quite some time (see <xref ref-type="bibr" rid="B31">McGann [1983]</xref>). We have unique identifiers for texts in the form of ISBNs but we have become complacent about assuming that all editions are equal on first publication. When we write of &#8216;<italic>Cloud Atlas</italic>&#8217;, to what are we referring? Is it the textual edition cited in the bibliography? Nominally, yes, but more often the assumption is that we mean this to refer to the ur-structure, the named entity of a text that is &#8216;the novel&#8217;.</p>
+<p>There are also a number of implications from this type of textual-genetic work for other demographic groups. <italic>Cloud Atlas</italic> won the British Book Awards Literary Fiction Award and the Richard &amp; Judy Book Club Book of the Year Award. The novel was shortlisted for the Arthur C. Clarke Award, the Booker Prize and the Nebula Award (see <xref ref-type="bibr" rid="B48">Sims [2013: 232, n6]</xref>). In order for the work &#8211; and every other work on the shortlist &#8211; to be compared and discussed by judges in these circumstances, one must hope that the process at each of these prizes was one in which the panel members were sent the precise, same editions of the texts.<xref ref-type="fn" rid="n11">11</xref> But which editions they judged on, we may never know. Likewise, <italic>Cloud Atlas</italic> and other works that take off on the prize circuit often find their way into amateur reading groups. While the degree of close-reading at such gatherings differs wildly from group to group, in the age of the internet where trans-national online groupings take place, there is a very real possibility of co-readers encountering the textual difference in this volume and others like it within their cadre.<xref ref-type="fn" rid="n12">12</xref></p>
+<p>Of course, there is a long history of the study of manuscript variance/textual scholarship, much of which, in the tradition of European genetic criticism, has focused on tracing the route from manuscript to published edition, while noting that the centres of textual authority in these routes are convoluted and difficult to pin down (see Deppman, Ferrer and Groden [<xref ref-type="bibr" rid="B4">2004</xref>]). We have certainly also seen a good body of post-World War II scholarship that has focused on the variance between pre-publication manuscript and final text; much of it, in the US context, arising from the collecting sprees of centres such as the Harry Ransom Center (in my own field, <xref ref-type="bibr" rid="B23">Herman and Kraftt [2007]</xref> springs to mind). We have also seen, within the last decade, a special edition of <italic>Variants</italic> dedicated to the topic of textual criticism across multiple textual editions (version variance included) (see <xref ref-type="bibr" rid="B18">Giuliani et al. [2006: v]</xref>).</p>
+<p>What I have presented here, however, is the case that we should be more careful and meticulous, often, in the reading of editions and the verification of identity across versions of contemporary fiction even when these works have only just been published.<xref ref-type="fn" rid="n13">13</xref> This should also pertain to our thinking about the labour structures of the production of contemporary fiction, which it seems can be heavier at the editorial house than is often acknowledged until much later in a text&#8217;s afterlife. Clearly, Mitchell cannot be the only author within the past decade-and-a-half to have considered the synchronisation process between presses to be more &#8216;faff&#8217; than a definitive edition was worth. It is also apparent to me that, as Jerome McGann highlighted some years ago now, the locus of authority in the text of <italic>Cloud Atlas</italic> is hardly just the author; it includes a variety of labour, editorial and reception points (see <xref ref-type="bibr" rid="B19">McGann [1987: Chp. 7]</xref>). For instance, forthcoming work by Erik Ketzan and Christof Sch&#246;ch on Andy Weir&#8217;s 2011 novel, <italic>The Martian</italic>, unearths editorial changes of similar magnitude to those in <italic>Cloud Atlas</italic> between the self-published and Crown Publishing&#8217;s editions of the text. Likewise, David Winters&#8217;s ongoing project on the school of Gordon Lish is a fascinating exercise in reincorporating the work of editors and journalists into the production of contemporary fiction (<xref ref-type="bibr" rid="B52">Winters, 2016: 111&#8211;34</xref>). This socialised mode of literary production &#8211; in which much editorial and publishing labour (which has consequences for interpretation) is nonetheless buried beneath the front-facing facade of author and text names &#8211; is an element that tended &#8216;to become obscured in criticism&#8217; of the 1980s and is still occluded today when it comes to contemporary fiction (<xref ref-type="bibr" rid="B31">McGann, 1983: 81</xref>).</p>
+<p>It seems clear, then, that the name of the novel, if we are to write in such terms, must refer to the sum of all variants and the degree of deviations if it is to have traction, even upon the very first publication. It is certainly true that our contemporary novels are not so bounded by their covers as we might like to think. Such texts must be treated, as N. Katherine Hayles has put it, as &#8216;distributed media systems&#8217;, spread across diverse forms and traced through genetic roots, contributed to and built by multiple modes of editorial and authorial labours (<xref ref-type="bibr" rid="B22">Hayles, 2012: 212</xref>). For, at least in the case of David Mitchell&#8217;s <italic>Cloud Atlas</italic>, the pluralised texts speak like the character Hae-Joo Im, a statement that is, for once, the same in both editions: &#8216;I am not xactly who I said I am&#8217; (<xref ref-type="bibr" rid="B36">Mitchell, <italic>Cloud Atlas</italic> [Sceptre, 2008, &#8216;P&#8217;]: 245</xref>).</p>
+</sec>
+</body>
+<back>
+<fn-group>
+<fn id="n1">
+<p>As just two examples, there are the author-study monograph (<xref ref-type="bibr" rid="B43">O&#8217;Donnell, 2015</xref>) and the edited collection (<xref ref-type="bibr" rid="B6">Dillon, 2011</xref>).</p>
+</fn>
+<fn id="n2">
+<p>A full concordance list of all US against UK editions is beyond the scope of this article.</p>
+</fn>
+<fn id="n3">
+<p>I outline my methodology for constructing this dataset in the next section and openly release these data for others to modify and build upon. I also openly release the software for visualizing <italic>syuzhet</italic> modifications between version variants.</p>
+</fn>
+<fn id="n4">
+<p>It is true that I first noticed these differences in an electronic version of the novel. However, as I will show from my correspondence with Mitchell below, the same set of changes found their way into print editions of the work as well.</p>
+</fn>
+<fn id="n5">
+<p>As previously mentioned, for those unfamiliar with the text, remember that <italic>Cloud Atlas</italic> gives the first half of each narrative before cutting to the next, only then to give the second half of each sub-section in the second half of the book.</p>
+</fn>
+<fn id="n6">
+<p>Although I attempt to cover all differences within the text within a broadly textual-chronological frame, I do not propose here to move strictly chronologically through the texts in instances where I can instead relate and group changes by thematic areas, when appropriate.</p>
+</fn>
+<fn id="n7">
+<p>I understand historiographic metafiction primarily through the work of Linda Hutcheon and Brian McHale, whose work on the ways in which self-aware metafiction can comment upon the similar natures of fiction and history were formative for this field (see <xref ref-type="bibr" rid="B24">Hutcheon [1988]</xref>, <xref ref-type="bibr" rid="B33">McHale [1986]</xref> and <xref ref-type="bibr" rid="B13">Eve [2015]</xref>).</p>
+</fn>
+<fn id="n8">
+<p>Although, it seems to me that Dunlop also mis-cites here, omitting the word &#8216;naked&#8217; from the sentence (<xref ref-type="bibr" rid="B7">Dunlop, 2011: 191</xref>).</p>
+</fn>
+<fn id="n9">
+<p>See Jerome McGann (<xref ref-type="bibr" rid="B31">1983; Chp. 5</xref>) for more on intentionality and copy-text.</p>
+</fn>
+<fn id="n10">
+<p>It is not my intention in this article to try to recover this original manuscript in any Lachmann-esque way.</p>
+</fn>
+<fn id="n11">
+<p>If this were not the case, one could see a literary prize scandal emerging here. In much the same way as charted by James F. English, though, it is most likely that this would in time only bolster the popularity and success of prizes (see <xref ref-type="bibr" rid="B10">English [2005]</xref>).</p>
+</fn>
+<fn id="n12">
+<p>For more on the way in which reading groups engage with texts and the future mutations of the reading group in the twenty-first century, see Hartley (<xref ref-type="bibr" rid="B20">2002: 73&#8211;102, 139&#8211;56</xref>).</p>
+</fn>
+<fn id="n13">
+<p>The same happened in 1963 to Thomas Pynchon&#8217;s <italic>V</italic>., to a much smaller extent, according to Albert Rolls (see <xref ref-type="bibr" rid="B47">Rolls [2012]</xref>).</p>
+</fn>
+</fn-group>
+<sec>
+<title>Supplementary Files</title>
+<p>The supplementary files for this article can be found as follows:</p>
+<list list-type="bullet">
+<list-item><p><bold>Supplementary File 1</bold>: <inline-supplementary-material xlink:href="http://dx.doi.org/10.16995/olh.82.s1">http://dx.doi.org/10.16995/olh.82.s1</inline-supplementary-material><bold> Appendix A</bold>. This appendix presents a concordance of excerpts from P and E editions of the novel with the numbering referring to the question count from the start of the Sonmi narrative.</p></list-item>
+<list-item><p><bold>Supplementary File 2</bold>: <inline-supplementary-material xlink:href="http://dx.doi.org/10.16995/olh.82.s2">http://dx.doi.org/10.16995/olh.82.s2</inline-supplementary-material><bold> Appendix B</bold>. This appendix provides a description of the JSON data file attached to this article.</p></list-item>
+<list-item><p><bold>Supplementary File 3</bold>: <inline-supplementary-material xlink:href="http://dx.doi.org/10.16995/olh.82.s3">http://dx.doi.org/10.16995/olh.82.s3</inline-supplementary-material><bold> JSON file</bold>. This dataset represents my work to interpret the variances between the two published editions of David Mitchell&#8217;s <italic>Cloud Atlas</italic>. It was created through a hermeneutic process of cross-comparing the different texts and then marked-up in JSON by hand. Potential re-uses include corrections, further visualisation, digital-humanities teaching, and structural analysis.</p></list-item>
+</list>
+</sec>
+<ack>
+<title>Acknowledgements</title>
+<p>In addition to the two anonymous reviewers, I would like to thank Caroline Edwards for her patient and detailed editorial work on this piece.</p>
+</ack>
+<sec>
+<title>Competing Interests</title>
+<p>The author is an editor and co-director of the <italic>Open Library of Humanities</italic>. This piece was handled by another editor and underwent a standard double-blind peer-review process.</p>
+</sec>
+<ref-list>
+<ref id="B1">
+<label>1</label>
+<element-citation publication-type="webpage">
+<person-group person-group-type="author">
+<name>
+<surname>Allington</surname>
+<given-names>D</given-names>
+</name>
+<name>
+<surname>Brouillette</surname>
+<given-names>S</given-names>
+</name>
+<name>
+<surname>Golumbia</surname>
+<given-names>D</given-names>
+</name>
+</person-group>
+<article-title>Neoliberal Tools (and Archives): A Political History of Digital Humanities</article-title>
+<source>Los Angeles Review of Books</source>
+<year iso-8601-date="2016">2016</year>
+<comment>Available at: <uri>https://lareviewofbooks.org/article/neoliberal-tools-archives-political-history-digital-humanities/</uri> (Last accessed 13 July 2016)</comment>
+</element-citation>
+</ref>
+<ref id="B2">
+<label>2</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Arendt</surname>
+<given-names>H</given-names>
+</name>
+</person-group>
+<source>Eichmann in Jerusalem: A Report on the Banality of Evil</source>
+<year iso-8601-date="2006">2006</year>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Penguin Books</publisher-name>
+</element-citation>
+</ref>
+<ref id="B3">
+<label>3</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Dedner</surname>
+<given-names>B</given-names>
+</name>
+</person-group>
+<person-group person-group-type="editor">
+<name>
+<surname>Giuliani</surname>
+<given-names>L</given-names>
+</name>
+<etal/>
+</person-group>
+<chapter-title>Highlighting Variants in Literary Editions: Techniques and Goals</chapter-title>
+<source>Texts in Multiple Versions: Histories of Editions</source>
+<year iso-8601-date="2006">2006</year>
+<publisher-loc>Amsterdam</publisher-loc>
+<publisher-name>Rodopi</publisher-name>
+<fpage>15</fpage>
+<lpage>32</lpage>
+</element-citation>
+</ref>
+<ref id="B4">
+<label>4</label>
+<element-citation publication-type="book">
+<person-group person-group-type="editor">
+<name>
+<surname>Deppman</surname>
+<given-names>J</given-names>
+</name>
+<name>
+<surname>Ferrer</surname>
+<given-names>D</given-names>
+</name>
+<name>
+<surname>Groden</surname>
+<given-names>M</given-names>
+</name>
+</person-group>
+<source>Genetic Criticism</source>
+<year iso-8601-date="2004">2004</year>
+<publisher-loc>Philadelphia</publisher-loc>
+<publisher-name>University of Pennsylvania Press</publisher-name>
+</element-citation>
+</ref>
+<ref id="B5">
+<label>5</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>D&#8217;haen</surname>
+<given-names>T</given-names>
+</name>
+</person-group>
+<article-title>European Postmodernism: The Cosmodern Turn</article-title>
+<source>Narrative</source>
+<year iso-8601-date="2013">2013</year>
+<volume>21</volume>
+<issue>3</issue>
+<fpage>271</fpage>
+<lpage>83</lpage>
+<pub-id pub-id-type="doi">10.1353/nar.2013.0019</pub-id>
+</element-citation>
+</ref>
+<ref id="B6">
+<label>6</label>
+<element-citation publication-type="book">
+<person-group person-group-type="editor">
+<name>
+<surname>Dillon</surname>
+<given-names>S</given-names>
+</name>
+</person-group>
+<source>David Mitchell: Critical Essays</source>
+<year iso-8601-date="2011">2011</year>
+<publisher-loc>Canterbury</publisher-loc>
+<publisher-name>Gylphi</publisher-name>
+</element-citation>
+</ref>
+<ref id="B7">
+<label>7</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Dunlop</surname>
+<given-names>N</given-names>
+</name>
+</person-group>
+<person-group person-group-type="editor">
+<name>
+<surname>Dillon</surname>
+<given-names>S</given-names>
+</name>
+</person-group>
+<chapter-title>Speculative Fiction as Postcolonial Critique in <italic>Ghostwritten</italic> and <italic>Cloud Atlas</italic></chapter-title>
+<source>David Mitchell: Critical Essays</source>
+<year iso-8601-date="2011">2011</year>
+<publisher-loc>Canterbury</publisher-loc>
+<publisher-name>Gylphi</publisher-name>
+<fpage>201</fpage>
+<lpage>23</lpage>
+</element-citation>
+</ref>
+<ref id="B8">
+<label>8</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Eaglestone</surname>
+<given-names>R</given-names>
+</name>
+</person-group>
+<article-title>Contemporary Fiction in the Academy: Towards a Manifesto</article-title>
+<source>Textual Practice</source>
+<year iso-8601-date="2013">2013</year>
+<volume>27</volume>
+<issue>7</issue>
+<fpage>1089</fpage>
+<lpage>1101</lpage>
+<pub-id pub-id-type="doi">10.1080/0950236X.2013.840113</pub-id>
+</element-citation>
+</ref>
+<ref id="B9">
+<label>9</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Edwards</surname>
+<given-names>C</given-names>
+</name>
+</person-group>
+<person-group person-group-type="editor">
+<name>
+<surname>Dillon</surname>
+<given-names>S</given-names>
+</name>
+</person-group>
+<chapter-title>&#8216;Strange Transactions&#8217;: Utopia, Transmigration and Time in <italic>Ghostwritten</italic> and <italic>Cloud Atlas</italic></chapter-title>
+<source>David Mitchell: Critical Essays</source>
+<year iso-8601-date="2011">2011</year>
+<publisher-loc>Canterbury</publisher-loc>
+<publisher-name>Gylphi</publisher-name>
+<fpage>178</fpage>
+<lpage>200</lpage>
+</element-citation>
+</ref>
+<ref id="B10">
+<label>10</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>English</surname>
+<given-names>J F</given-names>
+</name>
+</person-group>
+<source>The Economy of Prestige Prizes, Awards, and the Circulation of Cultural Value</source>
+<year iso-8601-date="2005">2005</year>
+<publisher-loc>Cambridge, MA</publisher-loc>
+<publisher-name>Harvard University Press</publisher-name>
+<pub-id pub-id-type="doi">10.4159/9780674036536</pub-id>
+</element-citation>
+</ref>
+<ref id="B11">
+<label>11</label>
+<element-citation publication-type="webpage">
+<person-group person-group-type="author">
+<collab>European Parliament</collab>
+</person-group>
+<article-title>Directive 2001/29/EC of the European Parliament and of the Council of 22 May 2001 on the Harmonisation of Certain Aspects of Copyright and Related Rights in the Information Society</article-title>
+<source>Official Journal</source>
+<year iso-8601-date="2001">2001</year>
+<comment>Available at: <uri>http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0029:EN:HTML</uri> (Last accessed 29 May 2016)</comment>
+</element-citation>
+</ref>
+<ref id="B12">
+<label>12</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Eve</surname>
+<given-names>M P</given-names>
+</name>
+</person-group>
+<article-title>&#8216;some kind of thing it aint is but yet its in us&#8217;: David Mitchell, Russell Hoban, and Metafiction After the Millennium</article-title>
+<source>SAGE Open</source>
+<year iso-8601-date="2014">2014</year>
+<volume>4</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>10</lpage>
+<pub-id pub-id-type="doi">10.1177/2158244014521636</pub-id>
+</element-citation>
+</ref>
+<ref id="B13">
+<label>13</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Eve</surname>
+<given-names>M P</given-names>
+</name>
+</person-group>
+<person-group person-group-type="editor">
+<name>
+<surname>di Episcopo</surname>
+<given-names>G</given-names>
+</name>
+</person-group>
+<chapter-title>New Rhetorics: Disciplinarity and the Movement from Historiography to Taxonomography</chapter-title>
+<source>Metahistorical Narratives and Scientific Metafictions</source>
+<year iso-8601-date="2015">2015</year>
+<publisher-loc>Naples, Italy</publisher-loc>
+<publisher-name>Edizioni Cronopio</publisher-name>
+<fpage>101</fpage>
+<lpage>22</lpage>
+</element-citation>
+</ref>
+<ref id="B14">
+<label>14</label>
+<element-citation publication-type="webpage">
+<person-group person-group-type="author">
+<name>
+<surname>Eve</surname>
+<given-names>M P</given-names>
+</name>
+</person-group>
+<article-title>SankeyTextualVariant</article-title>
+<source>Github</source>
+<year iso-8601-date="2015">2015</year>
+<comment>Available at: <uri>https://github.com/MartinPaulEve/SankeyTextualVariant</uri> (Last accessed 20 December 2015)</comment>
+</element-citation>
+</ref>
+<ref id="B15">
+<label>15</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Eve</surname>
+<given-names>M P</given-names>
+</name>
+</person-group>
+<article-title>Personal email correspondence with David Mitchell</article-title>
+<year iso-8601-date="2016">2016</year>
+</element-citation>
+</ref>
+<ref id="B16">
+<label>16</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Finkelstein</surname>
+<given-names>D</given-names>
+</name>
+<name>
+<surname>McCleery</surname>
+<given-names>A</given-names>
+</name>
+</person-group>
+<source>An Introduction to Book History</source>
+<year iso-8601-date="2013">2013</year>
+<edition>2nd ed.</edition>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Routledge</publisher-name>
+</element-citation>
+</ref>
+<ref id="B17">
+<label>17</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Fukuyama</surname>
+<given-names>F</given-names>
+</name>
+</person-group>
+<source>The End of History and the Last Man</source>
+<year iso-8601-date="2006">2006</year>
+<edition>reissue ed.</edition>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Free Press</publisher-name>
+</element-citation>
+</ref>
+<ref id="B18">
+<label>18</label>
+<element-citation publication-type="book">
+<person-group person-group-type="editor">
+<name>
+<surname>Giuliani</surname>
+<given-names>L</given-names>
+</name>
+<name>
+<surname>Brinkman</surname>
+<given-names>H</given-names>
+</name>
+<name>
+<surname>Lernour</surname>
+<given-names>G</given-names>
+</name>
+<name>
+<surname>Mathijsen</surname>
+<given-names>M</given-names>
+</name>
+</person-group>
+<source>Texts in Multiple Versions &#8211; Histories of Editions, Variants</source>
+<year iso-8601-date="2006">2006</year>
+<publisher-loc>Amsterdam</publisher-loc>
+<publisher-name>Brill</publisher-name>
+</element-citation>
+</ref>
+<ref id="B19">
+<label>19</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Gorman</surname>
+<given-names>D</given-names>
+</name>
+<name>
+<surname>McGann</surname>
+<given-names>J</given-names>
+</name>
+</person-group>
+<article-title>An Interview with Jerome McGann on Textual Scholarship as Literary History and Ideology Critique</article-title>
+<source>Social Epistemology</source>
+<year iso-8601-date="1987">1987</year>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>163</fpage>
+<lpage>73</lpage>
+<pub-id pub-id-type="doi">10.1080/02691728708578428</pub-id>
+</element-citation>
+</ref>
+<ref id="B20">
+<label>20</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Hartley</surname>
+<given-names>J</given-names>
+</name>
+</person-group>
+<source>The Reading Groups Book</source>
+<year iso-8601-date="2002">2002</year>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+</element-citation>
+</ref>
+<ref id="B21">
+<label>21</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Hay</surname>
+<given-names>L</given-names>
+</name>
+</person-group>
+<article-title>Does &#8216;Text&#8217; Exist?</article-title>
+<source>Studies in Bibliography</source>
+<year iso-8601-date="1988">1988</year>
+<volume>41</volume>
+<issue>1</issue>
+<fpage>64</fpage>
+<lpage>76</lpage>
+</element-citation>
+</ref>
+<ref id="B22">
+<label>22</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Hayles</surname>
+<given-names>N K</given-names>
+</name>
+</person-group>
+<source>How We Think: Digital Media and Contemporary Technogenesis</source>
+<year iso-8601-date="2012">2012</year>
+<publisher-loc>Chicago</publisher-loc>
+<publisher-name>University of Chicago Press</publisher-name>
+<pub-id pub-id-type="doi">10.7208/chicago/9780226321370.001.0001</pub-id>
+</element-citation>
+</ref>
+<ref id="B23">
+<label>23</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Herman</surname>
+<given-names>L</given-names>
+</name>
+<name>
+<surname>Krafft</surname>
+<given-names>J M</given-names>
+</name>
+</person-group>
+<article-title>Fast Learner: The Typescript of Pynchon&#8217;s <italic>V.</italic> at the Harry Ransom Center in Austin</article-title>
+<source>Texas Studies in Literature and Language</source>
+<year iso-8601-date="2007">2007</year>
+<volume>49</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>20</lpage>
+<pub-id pub-id-type="doi">10.1353/tsl.2007.0005</pub-id>
+</element-citation>
+</ref>
+<ref id="B24">
+<label>24</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Hutcheon</surname>
+<given-names>L</given-names>
+</name>
+</person-group>
+<source>A Poetics of Postmodernism: History, Theory, Fiction</source>
+<year iso-8601-date="1988">1988</year>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Routledge</publisher-name>
+<pub-id pub-id-type="doi">10.4324/9780203358856</pub-id>
+</element-citation>
+</ref>
+<ref id="B25">
+<label>25</label>
+<element-citation publication-type="webpage">
+<person-group person-group-type="author">
+<collab>Intellectual Property Office of the United Kingdom</collab>
+</person-group>
+<article-title>Exceptions to Copyright: Research</article-title>
+<year iso-8601-date="2015">2015</year>
+<comment>Available at: <uri>https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/375954/Research.pdf</uri> (Last accessed 29 May 2016)</comment>
+</element-citation>
+</ref>
+<ref id="B26">
+<label>26</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Jockers</surname>
+<given-names>M L</given-names>
+</name>
+</person-group>
+<source>Macroanalysis: Digital Methods and Literary History</source>
+<year iso-8601-date="2013">2013</year>
+<publisher-loc>Chicago</publisher-loc>
+<publisher-name>University of Illinois Press</publisher-name>
+</element-citation>
+</ref>
+<ref id="B27">
+<label>27</label>
+<element-citation publication-type="webpage">
+<person-group person-group-type="author">
+<name>
+<surname>Johnson</surname>
+<given-names>B</given-names>
+</name>
+</person-group>
+<article-title>Amazon Kindle Users Surprised by &#8216;Big Brother&#8217; Move</article-title>
+<source>The Guardian</source>
+<year iso-8601-date="2009">2009</year>
+<month>July</month>
+<day>17</day>
+<comment>Technology Section. Available at: <uri>http://www.theguardian.com/technology/2009/jul/17/amazon-kindle-1984</uri> (Last accessed 15 December 2015)</comment>
+</element-citation>
+</ref>
+<ref id="B28">
+<label>28</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Lavagnino</surname>
+<given-names>J</given-names>
+</name>
+</person-group>
+<article-title>Excerpted: Reading, Scholarship, and Hypertext Editions</article-title>
+<source>Journal of Electronic Publishing</source>
+<year iso-8601-date="1997">1997</year>
+<volume>3</volume>
+<issue>1</issue>
+<pub-id pub-id-type="doi">10.3998/3336451.0003.112</pub-id>
+<comment>n. pag</comment>
+</element-citation>
+</ref>
+<ref id="B29">
+<label>29</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Machinal</surname>
+<given-names>H</given-names>
+</name>
+</person-group>
+<person-group person-group-type="editor">
+<name>
+<surname>Dillon</surname>
+<given-names>S</given-names>
+</name>
+</person-group>
+<chapter-title><italic>Cloud Atlas</italic>: From Postmodernity to the Posthuman</chapter-title>
+<source>David Mitchell: Critical Essays</source>
+<year iso-8601-date="2011">2011</year>
+<publisher-loc>Canterbury</publisher-loc>
+<publisher-name>Gylphi</publisher-name>
+<fpage>127</fpage>
+<lpage>54</lpage>
+</element-citation>
+</ref>
+<ref id="B30">
+<label>30</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Mangen</surname>
+<given-names>A</given-names>
+</name>
+</person-group>
+<article-title>Hypertext Fiction Reading: Haptics and Immersion</article-title>
+<source>Journal of Research in Reading</source>
+<year iso-8601-date="2008">2008</year>
+<volume>31</volume>
+<issue>4</issue>
+<fpage>404</fpage>
+<lpage>19</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1467-9817.2008.00380.x</pub-id>
+</element-citation>
+</ref>
+<ref id="B31">
+<label>31</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>McGann</surname>
+<given-names>J</given-names>
+</name>
+</person-group>
+<source>A Critique of Modern Textual Criticism</source>
+<year iso-8601-date="1983">1983</year>
+<publisher-loc>Charlottesville, VA</publisher-loc>
+<publisher-name>University of Virginia Press</publisher-name>
+</element-citation>
+</ref>
+<ref id="B32">
+<label>32</label>
+<element-citation publication-type="webpage">
+<person-group person-group-type="author">
+<name>
+<surname>McGann</surname>
+<given-names>J</given-names>
+</name>
+</person-group>
+<article-title>Rossetti Archive</article-title>
+<year iso-8601-date="2008">2008</year>
+<comment>Available at: <uri>http://www.rossettiarchive.org/</uri> (Last accessed 29 May 2016)</comment>
+</element-citation>
+</ref>
+<ref id="B33">
+<label>33</label>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>McHale</surname>
+<given-names>B</given-names>
+</name>
+</person-group>
+<person-group person-group-type="editor">
+<name>
+<surname>Fokkema</surname>
+<given-names>D W</given-names>
+</name>
+<name>
+<surname>Bertens</surname>
+<given-names>H</given-names>
+</name>
+</person-group>
+<article-title>Change of Dominant from Modernist to Postmodernist Writing</article-title>
+<conf-name>Approaching Postmodernism: Papers Presented at a Workshop on Postmodernism</conf-name>
+<conf-date>21&#8211;3 September 1984</conf-date>
+<year iso-8601-date="1986">1986</year>
+<conf-sponsor>University of Utrecht</conf-sponsor>
+<fpage>53</fpage>
+<lpage>79</lpage>
+<pub-id pub-id-type="doi">10.1075/upal.21.04mch</pub-id>
+<comment>(Utrecht: Utrecht Publications in General and Comparative Literature, 21)</comment>
+</element-citation>
+</ref>
+<ref id="B34">
+<label>34</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Miller</surname>
+<given-names>M C</given-names>
+</name>
+</person-group>
+<person-group person-group-type="editor">
+<name>
+<surname>Aufderheide</surname>
+<given-names>P</given-names>
+</name>
+<etal/>
+</person-group>
+<chapter-title>The Publishing Industry</chapter-title>
+<source>Conglomerates and the Media</source>
+<year iso-8601-date="1997">1997</year>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>The New Press</publisher-name>
+<fpage>107</fpage>
+<lpage>34</lpage>
+</element-citation>
+</ref>
+<ref id="B35">
+<label>35</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Mitchell</surname>
+<given-names>D</given-names>
+</name>
+</person-group>
+<source>Number9Dream</source>
+<year iso-8601-date="2003">2003</year>
+<publisher-loc>London</publisher-loc>
+<publisher-name>Random House</publisher-name>
+</element-citation>
+</ref>
+<ref id="B36">
+<label>36</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Mitchell</surname>
+<given-names>D</given-names>
+</name>
+</person-group>
+<source>Cloud Atlas</source>
+<year iso-8601-date="2008">2008</year>
+<publisher-loc>London</publisher-loc>
+<publisher-name>Sceptre</publisher-name>
+</element-citation>
+</ref>
+<ref id="B37">
+<label>37</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Mitchell</surname>
+<given-names>D</given-names>
+</name>
+</person-group>
+<source>Cloud Atlas</source>
+<year iso-8601-date="2008">2008</year>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Amazon Kindle</publisher-name>
+</element-citation>
+</ref>
+<ref id="B38">
+<label>38</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Mitchell</surname>
+<given-names>D</given-names>
+</name>
+</person-group>
+<source>The Thousand Autumns of Jacob de Zoet</source>
+<year iso-8601-date="2010">2010</year>
+<edition>Reprint ed.</edition>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Random House Trade Paperbacks</publisher-name>
+</element-citation>
+</ref>
+<ref id="B39">
+<label>39</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Mitchell</surname>
+<given-names>D</given-names>
+</name>
+</person-group>
+<source>The Bone Clocks</source>
+<year iso-8601-date="2014">2014</year>
+<publisher-loc>London</publisher-loc>
+<publisher-name>Sceptre</publisher-name>
+</element-citation>
+</ref>
+<ref id="B40">
+<label>40</label>
+<element-citation publication-type="book">
+<person-group person-group-type="translator">
+<name>
+<surname>Mitchell</surname>
+<given-names>D</given-names>
+</name>
+<name>
+<surname>Berri</surname>
+<given-names>M</given-names>
+</name>
+</person-group>
+<source>Cartographie des Nuages</source>
+<year iso-8601-date="2007">2007</year>
+<publisher-loc>Paris</publisher-loc>
+<publisher-name>Editions de l&#8217;Olivier</publisher-name>
+</element-citation>
+</ref>
+<ref id="B41">
+<label>41</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Moretti</surname>
+<given-names>F</given-names>
+</name>
+</person-group>
+<source>Graphs, Maps, Trees: Abstract Models for Literary History</source>
+<year iso-8601-date="2007">2007</year>
+<publisher-loc>London</publisher-loc>
+<publisher-name>Verso</publisher-name>
+</element-citation>
+</ref>
+<ref id="B42">
+<label>42</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Moretti</surname>
+<given-names>F</given-names>
+</name>
+</person-group>
+<source>Distant Reading</source>
+<year iso-8601-date="2013">2013</year>
+<publisher-loc>London</publisher-loc>
+<publisher-name>Verso</publisher-name>
+</element-citation>
+</ref>
+<ref id="B43">
+<label>43</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>O&#8217;Donnell</surname>
+<given-names>P</given-names>
+</name>
+</person-group>
+<source>A Temporary Future: The Fiction of David Mitchell</source>
+<year iso-8601-date="2015">2015</year>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Bloomsbury Academic</publisher-name>
+</element-citation>
+</ref>
+<ref id="B44">
+<label>44</label>
+<element-citation publication-type="webpage">
+<person-group person-group-type="author">
+<collab>Oxford University Press</collab>
+</person-group>
+<article-title>Literary and Linguistic Computing</article-title>
+<year iso-8601-date="2016">2016</year>
+<comment>Available at: <uri>http://www.oxfordjournals.org/our_journals/litlin/about.html</uri> (Last accessed 29 May 2016)</comment>
+</element-citation>
+</ref>
+<ref id="B45">
+<label>45</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Pomerantz</surname>
+<given-names>J</given-names>
+</name>
+</person-group>
+<source>Metadata</source>
+<year iso-8601-date="2015">2015</year>
+<publisher-loc>Cambridge, MA</publisher-loc>
+<publisher-name>The MIT Press</publisher-name>
+</element-citation>
+</ref>
+<ref id="B46">
+<label>46</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Propp</surname>
+<given-names>V</given-names>
+</name>
+</person-group>
+<source>Morphology of the Folktale</source>
+<year iso-8601-date="1928">1928</year>
+<publisher-loc>Austin, TX</publisher-loc>
+<publisher-name>University of Texas Press</publisher-name>
+</element-citation>
+</ref>
+<ref id="B47">
+<label>47</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rolls</surname>
+<given-names>A</given-names>
+</name>
+</person-group>
+<article-title>The Two <italic>V.</italic>s of Thomas Pynchon, or From Lippincott to Jonathan Cape and Beyond</article-title>
+<source>Orbit: Writing Around Pynchon</source>
+<year iso-8601-date="2012">2012</year>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<pub-id pub-id-type="doi">10.7766/orbit.v1.1.33</pub-id>
+</element-citation>
+</ref>
+<ref id="B48">
+<label>48</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Sims</surname>
+<given-names>C</given-names>
+</name>
+</person-group>
+<source>A Tech Anxiety: Artificial Intelligence and Ontological Awakening in Four Science Fiction Novels</source>
+<year iso-8601-date="2013">2013</year>
+<publisher-loc>Jefferson, NC</publisher-loc>
+<publisher-name>McFarland</publisher-name>
+</element-citation>
+</ref>
+<ref id="B49">
+<label>49</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>&#352;klovskij</surname>
+<given-names>V</given-names>
+</name>
+</person-group>
+<source>Theory of Prose</source>
+<year iso-8601-date="1925">1925</year>
+<publisher-loc>Elmwood Park</publisher-loc>
+<publisher-name>Dalkey Archive Press</publisher-name>
+</element-citation>
+</ref>
+<ref id="B50">
+<label>50</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Stephenson</surname>
+<given-names>W</given-names>
+</name>
+</person-group>
+<person-group person-group-type="editor">
+<name>
+<surname>Dillon</surname>
+<given-names>S</given-names>
+</name>
+</person-group>
+<chapter-title>&#8216;Moonlight Bright as a UFO Abduction&#8217;: Science Fiction, Present-Future Alienation and Cognitive Mapping</chapter-title>
+<source>David Mitchell: Critical Essays</source>
+<year iso-8601-date="2011">2011</year>
+<publisher-loc>Canterbury</publisher-loc>
+<publisher-name>Gylphi</publisher-name>
+<fpage>225</fpage>
+<lpage>46</lpage>
+</element-citation>
+</ref>
+<ref id="B51">
+<label>51</label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Tykwer</surname>
+<given-names>T</given-names>
+</name>
+<name>
+<surname>Wachowski</surname>
+<given-names>L</given-names>
+</name>
+<name>
+<surname>Wachowski</surname>
+<given-names>L (as A)</given-names>
+</name>
+</person-group>
+<source>Cloud Atlas</source>
+<year iso-8601-date="2012">2012</year>
+<publisher-name>Warner Bros</publisher-name>
+</element-citation>
+</ref>
+<ref id="B52">
+<label>52</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Winters</surname>
+<given-names>D</given-names>
+</name>
+</person-group>
+<article-title>Theory and the Creative Writing Classroom: Conceptual Revision in the School of Gordon Lish</article-title>
+<source>Contemporary Literature</source>
+<year iso-8601-date="2016">2016</year>
+<volume>57</volume>
+<issue>1</issue>
+<fpage>111</fpage>
+<lpage>34</lpage>
+<pub-id pub-id-type="doi">10.3368/cl.57.1.111</pub-id>
+</element-citation>
+</ref>
+</ref-list>
+</back>
+</article>

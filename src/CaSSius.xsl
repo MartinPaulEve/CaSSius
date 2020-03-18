@@ -65,6 +65,11 @@
                         text-align: justify;
                     }
 
+                    .fig {
+                        break-inside: avoid;
+                        text-align:center;
+                    }
+
                 </style>
 
                 <link rel="stylesheet" type="text/css" href="CaSSius.css"/>
@@ -1062,9 +1067,7 @@
                     <xsl:variable name="caption" select="parent::table-wrap/label/text()"/>
                     <xsl:variable name="graphics" select="following-sibling::graphic/@xlink:href"/>
                     <div class="fig-inline-img">
-                        <a href="{$graphics}" class="figure-expand-popup" title="{$caption}">
                             <img data-img="{$graphics}" src="{$graphics}" alt="{$caption}" class="responsive-img" />
-                        </a>
                     </div>
                 </xsl:if>
                 <div class="table-caption">
@@ -1447,9 +1450,7 @@
             <div class="acta-fig-image-caption-wrapper">
                 <div class="fig-expansion">
                     <div class="fig-inline-img">
-                        <a href="{$graphics}" class="figure-expand-popup" title="{$caption}">
                             <img data-img="{$graphics}" src="{$graphics}" alt="{$caption}"/>
-                        </a>
                     </div>
                     <xsl:apply-templates/>
                 </div>
@@ -1478,9 +1479,7 @@
             <div class="acta-fig-image-caption-wrapper">
                 <div class="fig-expansion">
                     <div class="fig-inline-img">
-                        <a href="{$graphics}" class="figure-expand-popup" title="{$caption}">
-                            <img data-img="{$graphics}" src="{$graphics}" alt="{$caption}" class="responsive-img" />
-                        </a>
+                        <img data-img="{$graphics}" src="{$graphics}" alt="{$caption}" class="responsive-img" />
                     </div>
                     <xsl:apply-templates/>
                 </div>
