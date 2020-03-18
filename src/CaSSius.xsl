@@ -312,8 +312,9 @@
                     <img src="logo.png" class="logo"/>
                     <br style="clear:both"/>
                     <h1><xsl:apply-templates select="//article-meta/title-group/article-title"/></h1>
+                    <xsl:variable name="doi" select="//article-id[@pub-id-type='doi']"/>
                     <p><i><xsl:value-of select="//front/journal-meta//journal-title"/></i>, <xsl:value-of select="//front//volume"/>.<xsl:value-of select="//front//issue"/> (<xsl:value-of select="//pub-date//year"/>), <a><xsl:attribute
-                            name="href">https://doi.org/<xsl:value-of select="//article-id[@pub-id-type='doi']"/></xsl:attribute>https://doi.org/<xsl:value-of select="//article-id[@pub-id-type='doi']"/></a></p>
+                            name="href"><xsl:if test="starts-with($doi, 'http')=false">https://doi.org/</xsl:if><xsl:value-of select="$doi"/></xsl:attribute><xsl:if test="starts-with($doi, 'http')=false">https://doi.org/</xsl:if><xsl:value-of select="$doi"/></a></p>
                     <hr/>
                     <p><xsl:call-template name="authors"/></p>
                     <hr/>
