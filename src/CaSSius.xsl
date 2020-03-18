@@ -41,6 +41,18 @@
                     content: '<xsl:value-of select="//surname" disable-output-escaping="no"/>, <xsl:value-of select="//year" disable-output-escaping="no"/>';
                     }
                   }
+
+                    @page:first{
+                        margin: 20mm 20mm 40mm 20mm;
+
+                        @bottom-left {
+                            content: element(license);
+                            width: 100%;
+                        }
+                        @bottom-right {
+                            content: "";
+                        }
+                    }
                 </style>
 
                 <style type="text/css">
@@ -108,6 +120,7 @@
                 }
 
                 .license {
+                    position: running(license);
                     font-size: smaller;
                     text-align: justify;
                 }
@@ -317,7 +330,6 @@
                             name="href"><xsl:if test="starts-with($doi, 'http')=false">https://doi.org/</xsl:if><xsl:value-of select="$doi"/></xsl:attribute><xsl:if test="starts-with($doi, 'http')=false">https://doi.org/</xsl:if><xsl:value-of select="$doi"/></a></p>
                     <hr/>
                     <p><xsl:call-template name="authors"/></p>
-                    <hr/>
                     <p class="license"><xsl:value-of select="//article-meta/permissions/copyright-statement"/><xsl:text>. </xsl:text><xsl:value-of select="translate(//article-meta/permissions/license, '&#10;&#9;', '')"/></p>
                     <hr/>
                 </section>
