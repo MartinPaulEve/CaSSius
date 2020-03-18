@@ -100,12 +100,12 @@ class CassiusImport (Debuggable):
             self.debug.fatal_error(self, u'Error writing to temporary output file {0}.'.format(self.out_file))
             return
 
-        commands = ['screen -S serve -d -m bash -c "python3 -m http.server"',
-                    'sleep 2',
-                    'google-chrome --headless --disable-gpu --print-to-pdf={0} --virtual-time-budget=50000000 --run-all-compositor-stages-before-draw --disable-web-security http://127.0.0.1:8000/tmp_out.html >/dev/null 2>&1'.format(self.out_file),
-                    'screen -S serve -X quit',
-                    'rm tmp_out.html'
+        commands = ['google-chrome --headless --disable-gpu --print-to-pdf={0} --virtual-time-budget=50000000 --run-all-compositor-stages-before-draw --disable-web-security {1} >/dev/null 2>&1'.format(
+                        self.out_file, 'tmp_out.html'),
                     ]
+
+        if not self.debug.debug:
+            commands += 'rm tmp_out.html'
 
         for command in commands:
             self.debug.print_debug(self, "Calling shell script {0}".format(command))
