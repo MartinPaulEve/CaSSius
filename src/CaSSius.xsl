@@ -25,34 +25,39 @@
                 <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
 
                 <style>
-                  :root{
-                    font-size: 12px;
-                  }
-
-
-                  @page {
-                    size: 6in 8in;
-                    margin: 20mm 20mm;
-                    /* border: solid 1px black; */
-                    @bottom-left{
-                      content: counter(page);
+                    :root{
+                        font-size: 12px;
                     }
-                    @bottom-right {
-                    content: '<xsl:value-of select="//surname" disable-output-escaping="no"/>, <xsl:value-of select="//year" disable-output-escaping="no"/>';
-                    }
-                  }
 
                     @page:first{
-                        margin: 20mm 20mm 40mm 20mm;
+                        size: 6in 8in;
+                        margin: 20mm 20mm 35mm 20mm;
 
                         @bottom-left {
+                            content: "";
                             content: element(license);
                             width: 100%;
                         }
+                        @bottom-center {
+
+                        }
                         @bottom-right {
-                            content: "";
+                            content: none;
                         }
                     }
+
+                    @page{
+                        size: 6in 8in;
+                        margin: 20mm 20mm;
+                        @bottom-left {
+                            content: "Page " counter(page) "/" counter(pages);
+                        }
+                        @bottom-right {
+                            content: '<xsl:value-of select="//surname" disable-output-escaping="no"/>, <xsl:value-of select="//year" disable-output-escaping="no"/>';
+                        }
+                    }
+
+
                 </style>
 
                 <style type="text/css">
