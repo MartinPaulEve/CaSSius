@@ -371,6 +371,7 @@
         <xsl:for-each select="//article-meta/contrib-group/contrib">
                 <xsl:choose>
                     <xsl:when test="name">
+                        <p>
                         <xsl:choose>
                             <xsl:when test="contrib-id[@contrib-id-type='orcid']">
                                 <xsl:variable name="orcid"><xsl:value-of select="contrib-id[@contrib-id-type='orcid']"/></xsl:variable>
@@ -388,17 +389,20 @@
                                 </xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <xsl:if test="xref[@ref-type='aff']">,
+                        <xsl:if test="email">
+                             (<a>
+                                <xsl:attribute name="href">mailto:<xsl:value-of select="email"/></xsl:attribute>
+                                <xsl:value-of select="email"/>
+                            </a>)
+                        </xsl:if>
+                        <xsl:if test="xref[@ref-type='aff']"><br/>
                             <xsl:variable name="affnumber"><xsl:value-of select="xref[@ref-type='aff']/@rid"/></xsl:variable>
                             <xsl:variable name="aff" select="//aff[@id=$affnumber]/child::text()"/>
                             <xsl:copy-of select="$aff"/>
                         </xsl:if>
-                    </xsl:when>
-                    <xsl:when test="collab">
-                        <xsl:value-of select="collab"/>
+                        </p>
                     </xsl:when>
                 </xsl:choose>
-        <br/>
         </xsl:for-each>
     </xsl:template>
 
