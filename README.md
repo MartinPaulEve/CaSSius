@@ -15,7 +15,8 @@ CaSSius takes NLM/JATS XML and produces a PDF file from the results. To begin us
 
 1. Ensure that you have all of the requirements in requirements.txt installed and are using Python 3.
 2. Install Google Chrome in order to generate the PDF.
-3. Run src/cassius.py specifying the input XML and the desired output PDF file.
+3. Copy CaSSius.css to the directory with your input files and modify as appropriate.
+4. Run src/cassius.py from within that directory, specifying the input XML and the desired output PDF file.
 
 # Troubleshooting
 If something isn't working, please try with the --debug option. Furthermore, please verify the JATS structure against the provided samples.
