@@ -23,6 +23,8 @@
                 <title><xsl:value-of select="//article-meta/title-group/article-title"/></title>
 
                 <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+                <script src="https://kit.fontawesome.com/1825af8a6a.js" crossorigin="anonymous"></script>
+
 
                 <style>
                     :root{
@@ -394,11 +396,7 @@
                                 </xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <xsl:if test="email">
-                             (<a>
-                                <xsl:attribute name="href">mailto:<xsl:value-of select="email"/></xsl:attribute>
-                                <xsl:value-of select="email"/>
-                            </a>)
+                        <xsl:if test="email"><xsl:text> </xsl:text><a><xsl:attribute name="href">mailto:<xsl:value-of select="email"/></xsl:attribute><i class="far fa-envelope"></i></a>
                         </xsl:if>
                         <xsl:if test="xref[@ref-type='aff']"><br/>
                             <xsl:variable name="affnumber"><xsl:value-of select="xref[@ref-type='aff']/@rid"/></xsl:variable>
